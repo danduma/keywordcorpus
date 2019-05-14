@@ -1,0 +1,804 @@
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit0
+#NUM: 0
+
+#WORDS: : We hope that you find the open-access system increases wider reading and citation of your papers, and that you will continue to send your quality manuscripts to JCMR for publication. Beside its key role in research, CMR is most frequently used clinically for the carotid arteries where it can be used to characterize thrombus, [CITATION HERE] plaque vulnerability, [other cit] atheroma burden, natural history of progression, and response to treatment. [other cit] However, peripheral artery angiography, [other cit] and the role in investigation of pulmonary hypertension, [other cit] vasculitis and systemic hypertension, [other cit] is also making progress.
+
+#KEYWORDS:  CMR carotid arteries thrombus
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit15
+#NUM: 1
+
+#WORDS: : The main limitations of the study are is the lack of histological confirmation, which the authors acknowledge. This case report concerns non-invasive visualisation of an intracoronary thrombus using T1 weighted inversion recovery MRI in a patient with stable angina [CITATION HERE]. This was subsequently confirmed by optical coherence tomography and X-ray angiography.
+
+#KEYWORDS:  non-invasive visualisation intracoronary thrombus T1 weighted inversion recovery MRI stable angina optical coherence tomography X-ray angiography
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit17
+#NUM: 2
+
+#WORDS: : The authors demonstrated that symptomatic lesions can be identified but some of the parameters showed overlap between the symptomatic and asymptomatic lesions. This manuscript describes a pulse sequence modification that allows low resolution images to determine arterial input function for pharmacokinetic modelling of contrast agent uptake in the carotid wall [CITATION HERE]. Only 5 patients were studied and there is no histological comparison of results.
+
+#KEYWORDS:  symptomatic asymptomatic lesions pulse sequence modification low resolution images to determine arterial input function for pharmacokinetic modelling of contrast agent carotid wall
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit70
+#NUM: 3
+
+#WORDS: : The authors concluded that the experience from this study supports clinical testing of real-time CMR guided needle access or drainage of the pericardial space. In 9 of 11 pigs, real time CMR guidance successfully allowed LV cannulation via the chest, RV free wall and the interventricular septum, and subsequent closure of the RV free wall with an occluder device ; one failure was due to refractory ventricular fibrillation and one from inadequate guidewire support [CITATION HERE]. The septum recoiled immediately and complete healing was demonstrated with oximetry, angiography, CMR and necropsy up to 4 weeks later.
+
+#KEYWORDS:  real-time CMR guided needle access drainage pericardial space failure refractory ventricular fibrillation inadequate guidewire support septum oximetry angiography necropsy
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit80
+#NUM: 4
+
+#WORDS: : The phenotyping of cardiomyopathy is a primary clinical indication for CMR, [other cit] and has become mainstream in hypertrophic cardiomyopathy [other cit]. Recent attention has been focussed on the assessment of diffuse fibrosis in cardiomyopathy using T1 imaging, [other cit] and novel investigations in less common conditions [CITATION HERE]. In this study, the authors report on left ventricular noncompaction ( LVNC ) in the Duchenne Muscular Dystrophy ( DMD ) population and characterize its relationship to global LV function [other cit].
+
+#KEYWORDS:  phenotyping cardiomyopathy primary clinical indication for CMR 
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit89
+#NUM: 5
+
+#WORDS: : Fractal analysis, which is likely to be dependent on image resolution, was considered to provide a quantitative measure of trabeculation with high reproducibility and accuracy for LVNC diagnosis as compared to previous CMR criteria based on the linearly measured proportions of trabeculated to compact layers as seen in long axis cines. Manganese-enhanced CMR ( MECMR ) can non-invasively assess myocardial calcium influx, and in this study, the authors examined whether myocardial calcium levels are elevated in vivo in two mouse models of muscular dystrophy cardiomyopathy, the mdx mice ( model of Duchenne Muscular Dystrophy ) and Sgcd−/− mice ( Limb Girdle Muscular Dystrophy ) [CITATION HERE]. Both mouse models exhibited increased in-vivo calcium influx at an early stage in the development of the cardiomyopathy before left ventricular hypertrophy occurred.
+
+#KEYWORDS:  Manganese-enhanced CMR ( MECMR ) non-invasively assess myocardial calcium influx myocardial calcium levels are elevated in vivo two mouse models of muscular dystrophy cardiomyopath mdx mice ( model of Duchenne Muscular Dystrophy )  Sgcd−/− mice ( Limb Girdle Muscular Dystrophy )
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit90
+#NUM: 6
+
+#WORDS: : In this paper, T2* CMR was performed at first presentation of 41 HC patients ( 58.9 ± 14.1 years ) to measure myocardial iron and left ventricular ( LV ) ejection fraction ( EF ). In 31 patients ( genetically confirmed HFE-HC ), the HFE genotype was C282Y/C282Y ( n = 30 ) and C282Y/H63D ( n = 1 ) [CITATION HERE]. Patients with other genotypes ( n = 10 ) were labeled genetically unconfirmed HC.
+
+#KEYWORDS:  T2* CMR myocardial iron and left ventricular ( LV ) ejection fraction ( EF ) HFE genotype was C282Y/C282Y C282Y/H63D
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit91
+#NUM: 7
+
+#WORDS: : Among the first 1135 TM patients in the MIOT ( Myocardial Iron Overload in Thalassemia ) network, those who had received either combined regimen ( DFO + DFP, N=51 ) or DFP ( N=39 ) and DFO ( N=74 ) monotherapies were evaluated between the two CMR scans. Iron overload was measured by T2* multiecho technique [CITATION HERE]. Biventricular function parameters were quantitatively evaluated by cine images.
+
+#KEYWORDS:  TM patients MIOT ( Myocardial Iron Overload in Thalassemia ) network Iron overload T2* multiecho technique
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit92
+#NUM: 8
+
+#WORDS: : Patients with Sickle cell disease ( SCD ) who receive regular transfusions are at risk for developing cardiac toxicity from iron overload. The aim of this study was to assess right and left cardiac volumes and function, late gadolinium enhancement ( LGE ) and iron deposits in patients with SCD using CMR, correlating these values with transfusion burden, ferritin and hemoglobin levels [CITATION HERE]. Thirty patients with SCD older than 20 years of age were studied in a 1.5 T scanner and compared to age- and sex-matched normal controls.
+
+#KEYWORDS:  Sickle cell disease ( SCD ) regular transfusions developing cardiac toxicity iron overload assess right and left cardiac volumes and function late gadolinium enhancement ( LGE ) and iron deposits using CMR transfusion burden ferritin hemoglobin levels 
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit114
+#NUM: 9
+
+#WORDS: : Dynamic first-pass contrast-enhanced myocardial perfusion is the standard CMR method for the estimation of myocardial blood flow in man, but it is challenging in rodents because of the high temporal and spatial resolution requirements. Working at 3T, this is the first report on first-pass stress perfusion imaging in mice [CITATION HERE]. The authors determined absolute blood flow at rest and during dipyridamole stress, as well as perfusion reserve ( 2.4 ± 0.5 ), which agreed with literature values.
+
+#KEYWORDS:  Dynamic first-pass contrast-enhanced myocardial perfusion standard CMR method for the estimation of myocardial blood flow high temporal and spatial resolution requirements 3T first-pass stress perfusion imaging absolute blood flow dipyridamole stress perfusion reserve
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit115
+#NUM: 10
+
+#WORDS: : Increases in oxygen saturation increase the BOLD imaging signal ( T2 or T2* ), whereas decreases diminish it. This review presents the basic concepts and limitations of the BOLD technique, and summarizes the preclinical and clinical studies in the assessment of myocardial oxygenation with a focus on recent advances [CITATION HERE]. Finally, it provides future directions and a brief look at emerging techniques of this evolving CMR field.
+
+#KEYWORDS:  Increases in oxygen saturation increase the BOLD imaging signal ( T2 or T2* ) BOLD technique preclinical and clinical studies assessment of myocardial oxygenation
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit147
+#NUM: 11
+
+#WORDS: : This had led to guidelines regarding the use of these agents and surveys of their use [other cit]. The authors studied whether CMR improves outcomes prediction after contemporaneous echocardiography in a prospective study of 444 patients clinically referred for CMR [CITATION HERE]. The ejection fraction better predicted mortality ( 30 deaths at median 0.8 years ) than echo ejection fraction.
+
+#KEYWORDS:  CMR improves outcomes prediction after contemporaneous echocardiography ejection fraction better predicted mortality than echo ejection fraction
+
+
+#ID: 8c5bbd48-4434-4831-a60d-8e6d7985256c_cit161
+#NUM: 12
+
+#WORDS: : The clinical usefulness of the method, for example in predicting prognosis in CRT patients, remains to be investigated. In this study, CMR was performed in 41 patients on the same day as clinically indicated left heart catheterization [CITATION HERE]. This allowed left atrial volume ( LAV ) and emptying fraction ( LAEF ), measured by the biplane area and length method, to be related to left ventricular end diastolic pressure ( LVEDP ).
+
+#KEYWORDS:  predicting prognosis in CRT patients CMR left heart catheterization left atrial volume ( LAV ) emptying fraction ( LAEF ) measured by the biplane area and length method related to left ventricular end diastolic pressure ( LVEDP )
+
+
+#ID: 3244bfe6-9f77-4628-9cdf-24e446405183_cit163
+#NUM: 13
+
+#WORDS: : In another study, __author provided an analysis of the clonality of BLV-infected cells after primary infection. Their results revealed massive depletion and selection of BLV-infected cells during the first 2 months [CITATION HERE]. In this early stage, infected cells that have integration sites near a promoter or host gene were eliminated.
+
+#KEYWORDS:  analysis of the clonality BLV-infected cells after primary infection massive depletion and selection of BLV-infected cells that have integration sites near a promoter or host gene were eliminated
+
+
+#ID: 3244bfe6-9f77-4628-9cdf-24e446405183_cit230
+#NUM: 14
+
+#WORDS: : Taken together, these results suggest that Tax epigenetically affects gene expression through interaction with EZH2. __author presented evidence that a specific polymorphism in the HTLV-1 genome is associated with disease [CITATION HERE]. Individuals infected with the cosmopolitan type A subtype of HTLV-1 in Jamaica and the northern part of Iran are at greater risk for developing HAM/TSP than individuals from Japan infected with this subtype.
+
+#KEYWORDS:  Tax epigenetically affects gene expression through interaction with EZH2 specific polymorphism HTLV-1 genome associated with disease infected with the cosmopolitan type A subtype of HTLV-1 risk for developing HAM/TSP
+
+
+#ID: 3244bfe6-9f77-4628-9cdf-24e446405183_cit232
+#NUM: 15
+
+#WORDS: : Cells secrete endosome-derived microvesicles called exosomes, and recent studies have shown that some viruses use exosomes to enhance their spread. __author reported that, in addition to proteins usually associated with exosomes, exosomes derived from HTLV-1-infected cells contain gp46 and Tax, as well as inflammatory mediators including IL-6 and IL-10 [CITATION HERE]. Treatment of naïve cells with exosomes secreted from HTLV-1-infected cells induced a response in reactive oxygen species production.
+
+#KEYWORDS:  endosome-derived microvesicles some viruses use exosomes to enhance their spread proteins usually associated with exosome exosomes derived from HTLV-1-infected cells contain gp46 and Tax inflammatory mediators including IL-6 and IL-10 Treatment of naïve cells with exosomes secreted from HTLV-1-infected cells induced a response in reactive oxygen species production
+
+
+#ID: 2d8068a2-56ae-42c3-9dc8-ee3e048d39b0_cit16
+#NUM: 16
+
+#WORDS: : In a review article, Prof. S __author elegantly showed that ectopic fat accumulation by visceral organs is associated with insulin resistance [CITATION HERE]. He received the Namgok Award for his work, and wrote an update of the effects of ectopic fat accumulation on cardiometabolic and renal disorders.
+
+#KEYWORDS:  ectopic fat accumulation by visceral organs is associated with insulin resistance Namgok Award
+
+
+#ID: 2d8068a2-56ae-42c3-9dc8-ee3e048d39b0_cit45
+#NUM: 17
+
+#WORDS: : An article entitled & quot ; Correlation between expression of glucose transporters in granulosa cells and oocyte quality in women with polycystic ovary syndrome & quot ; defined the expression patterns of all 13 members of the GLUT family in human granulosa cells and reported that insulin sensitivity regulated GLUT expression in the granulosa cells of polycystic ovary syndrome patients [other cit]. An experimental study entitled & quot ; Functional role of Parkin against oxidative stress in neural cells & quot ; explored the role of Parkin in protecting against oxidative stress in neuronal cells that had differentiated from Parkin-knockout embryonic stem cells [CITATION HERE]. In another experimental work entitled & quot ; Short-term caloric restriction does not reduce bone mineral density in rats with early type 2 diabetes, & quot ; bone mineral density was maintained in Otsuka Long-Evans Tokushima Fatty rats after short-term caloric restriction induced weight loss [other cit].
+
+#KEYWORDS: Functional role of Parkin against oxidative stress in neural cells Parkin protecting oxidative stress neuronal cells Parkin-knockout embryonic stem cells
+
+
+#ID: a81ff731-0c6d-4b59-905d-fa8c1aab9c5e_cit394
+#NUM: 18
+
+#WORDS: : More longitudinal studies at stages of life are required to generate DNA methylation biomarkers for exposure and outcome in chronic diseases other than cancer. Birth cohorts and the retrospective utility of birth dried blood spot Guthrie cards [CITATION HERE] will be essential for this search. A number of individual MWAS have looked at the relationship of DNA methylation and aging, with the intention of developing age-specific biomarkers for forensic applications and for investigating premature cellular aging.
+
+#KEYWORDS:  Birth cohorts birth dried blood spot Guthrie cards developing age-specific biomarkers for forensic applications and for investigating premature cellular aging
+
+
+#ID: 6707cae4-8db6-426c-ac33-bb2f856cb755_cit130
+#NUM: 19
+
+#WORDS: : Since EGFR3 is kinase-inactive, it will be more difficult to isolate inhibitors specific to it. However, it is still important and it can serve in pathways responsible for drug resistance [CITATION HERE]. The functions of EGFR4 in breast and other cancers have been investigated and recently summarized [other cit].
+
+#KEYWORDS:  EGFR3 is kinase-inactive isolate inhibitors drug resistance
+
+
+#ID: 6707cae4-8db6-426c-ac33-bb2f856cb755_cit172
+#NUM: 20
+
+#WORDS: : Activation of the PI3K/PTEN/Akt/mTORC1 pathway can also result in resistance to HER2 inhibitors in HER2+ cells. Inhibition of the PI3K/PTEN/Akt/mTORC1 pathway can overcome resistant to hormonal and anti-HER2 targeted therapies [CITATION HERE]. Encouraging results have been obtained in breast cancer clinical trials with combinations of various inhibitors.
+
+#KEYWORDS:  HER2 inhibitors in HER2+ cells PI3K/PTEN/Akt/mTORC1 pathway hormonal and anti-HER2 targeted therapies
+
+
+#ID: 6707cae4-8db6-426c-ac33-bb2f856cb755_cit177
+#NUM: 21
+
+#WORDS: : Secreted frizzled-related protein 2 ( SFRP2 ) is a soluble modulator of Wnt signaling. Methylation of this gene has been association with breast and other cancers [CITATION HERE]. UAP1L1 encodes a UDP-N- acteylglucosamine pyrophosphorylase 1-like 1 protein. ACADL is a member of the acyl-CoA dehydrogenase family. This is a family of mitochondrial flavoenzymes involved in fatty acid and branched chain amino-acid metabolism. The ACADL gene product is associated with long-chain 3-hydroxyacyl-coenzyme A dehydrogenase deficiency.
+
+#KEYWORDS:  frizzled-related protein 2 ( SFRP2 ) soluble modulator of Wnt signaling Methylation association with breast and other cancers UAP1L1 encodes a UDP-N- acteylglucosamine pyrophosphorylase 1-like 1 protein. ACADL is a member of the acyl-CoA dehydrogenase family. This is a family of mitochondrial flavoenzymes involved in fatty acid and branched chain amino-acid metabolism. The ACADL gene product is associated with long-chain 3-hydroxyacyl-coenzyme A dehydrogenase deficiency
+
+
+#ID: 6707cae4-8db6-426c-ac33-bb2f856cb755_cit240
+#NUM: 22
+
+#WORDS: : The PI3K/PTEN/Akt/mTORC1 pathway can regulate the activity of key components of the translational apparatus such as eIF4E, eIF4G, 4E-BP1, rpS6, programmed cell death protein 4 ( pdcd4 ), eEF2 and eEF2K. The expression of eIF4E, eIF4G, 4E-BP1, p4E-BP1 ( T37/46 ), p4E-BP1 ( S65 ), p4E-BP1 ( T70 ), S6, pS6 ( S235/236 ), pS6 ( S240/244 ), pdcd4, eEF2 and eEF2K was examined in 190 hormone receptor-positive breast cancer patients [CITATION HERE]. This study followed the course of the breast cancer patients for 96 months.
+
+#KEYWORDS:  PI3K/PTEN/Akt/mTORC1 pathway translational apparatus eIF4E, eIF4G, 4E-BP1, rpS6, programmed cell death protein 4 ( pdcd4 ), eEF2 and eEF2K expression of eIF4E, eIF4G, 4E-BP1, p4E-BP1 ( T37/46 ), p4E-BP1 ( S65 ), p4E-BP1 ( T70 ), S6, pS6 ( S235/236 ), pS6 ( S240/244 ), pdcd4, eEF2 and eEF2K hormone receptor-positive breast cancer
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit137
+#NUM: 23
+
+#WORDS: : A detailed analysis revealed an underrepresentation of reads in AT-rich regions [other cit] and GC-rich regions [other cit]. It is the GC content of the complete library molecule and not only of the sequenced region that affects GC bias [CITATION HERE]. PCR steps were identified as a major cause introducing GC bias [other cit].
+
+#KEYWORDS:  GC content of the complete library molecule and not only of the sequenced region that affects GC bias
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit146
+#NUM: 24
+
+#WORDS: : High cluster densities on the Illumina flow-cell were also discussed to suppress GC-rich reads [other cit]. Error correction algorithms were developed and can be applied to account for GC-bias in projects where quantitative information is inferred from the sequencing data such as transcriptomic studies ( [CITATION HERE] ). Another artifact that has been reported in particular for 454 sequencing data is the occurrence of duplicate reads in shotgun ( meta- ) genomic sequencing projects.
+
+#KEYWORDS:  Error correction algorithms GC-bias sequencing transcriptomic studies 
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit74
+#NUM: 25
+
+#WORDS: : __author reported a 3.7-fold higher substitution error rate than indel error rate. Deletions are more frequent than insertions and insertions are likely to occur in homopolymeric regions [CITATION HERE]. The lower rate of indel errors compared to 454 sequencing is achieved by the terminal blocking strategy during the sequencing process, which allows the incorporation of only one base per sequencing cycle, so that a homopolymeric region is sequenced base by base.
+
+#KEYWORDS:  3.7-fold higher substitution error rate than indel error rate. Deletions are more frequent than insertions and insertions are likely to occur in homopolymeric regions terminal blocking strategy during the sequencing process incorporation of only one base per sequencing cycle homopolymeric region is sequenced base by base
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit243
+#NUM: 26
+
+#WORDS: : First studies were already performed on the GAIIx platform with 76 bp paired end reads and later on with longer paired end reads up to 150 bp, followed by analysis on the HiSeq instrument and recently also on the MiSeq platform ( __author e.g., __author 2012 ; __author __author ). The generation of overlapping paired end reads is recommended on these platforms as it will help to minimize the error rate [CITATION HERE]. As outlined above, errors accumulate toward the end of the reads, so that they can be corrected if consensus reads are generated from the read pairs.
+
+#KEYWORDS:  GAIIx platform HiSeq instrument MiSeq platform  generation of overlapping paired end reads minimize the error rate
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit249
+#NUM: 27
+
+#WORDS: : Even longer amplicons can be sequenced when using the PacBio RS platform. A recent study demonstrated the feasibility of amplicon sequencing for community analysis on this platform ( [CITATION HERE] ), although another study reported higher error rates for PacBio amplicon sequence reads compared to 454 reads of equal length, despite that fact that the CCS strategy was used [other cit]. Rather short movies of only 45 min were recorded in that study.
+
+#KEYWORDS:  amplicons PacBio RS platform feasibility of amplicon sequencing for community analysis 
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit269
+#NUM: 28
+
+#WORDS: : The SeqNoise algorithm, implemented in the software package Mothur, is less computationally demanding and therefore more often used. In comparative studies, the AmpliconNoise algorithm performed very well for OTU estimation ( [CITATION HERE] ). Critical analyses of different denoising tools demonstrated that parameters have to be chosen very carefully in order not to introduce bias by read modification during the generation of representative consensus reads.
+
+#KEYWORDS:  SeqNoise algorithm, implemented in the software package Mothur less computationally demanding more often used AmpliconNoise algorithm performed very well for OTU estimation denoising tools generation of representative consensus reads
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit271
+#NUM: 29
+
+#WORDS: : Critical analyses of different denoising tools demonstrated that parameters have to be chosen very carefully in order not to introduce bias by read modification during the generation of representative consensus reads. Default settings did not necessarily provide the best results ( [CITATION HERE] ). The identification and elimination of chimeric sequences is another type of error that needs to be accounted for.
+
+#KEYWORDS:  denoising tools generation of representative consensus reads identification and elimination of chimeric sequences
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit50
+#NUM: 30
+
+#WORDS: : Insertions are the most frequent type of error during 454 sequencing ( e.g., __author __author ). Several studies have reported deletions to be the second-most frequent type of error, followed by substitution errors ( [CITATION HERE] ). The majority of indel errors occurs in homopolymeric regions [other cit].
+
+#KEYWORDS:  Insertions most frequent type of error sequencing deletions second-most frequent substitution
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit160
+#NUM: 31
+
+#WORDS: : The overall reproducibility between 454 runs and samples from different regions of the picotiter plate is usually high [other cit]. However, variation in error rates, in particular for indel errors, was seen between different 454 sequencing runs [CITATION HERE]. Variation in terms of read composition of a sample may also occur, as observed in a study in which the same 16S rRNA gene PCR products were sequenced at different sequencing centers and in different runs [other cit].
+
+#KEYWORDS:  picotiter plate variation in error rates indel 
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit84
+#NUM: 32
+
+#WORDS: : Another reason for a decreasing signal-to-noise ratio toward the end of a read is signal drooping due to premature termination of the sequencing process on templates. This was reported for Ion PGM sequencing ( [CITATION HERE] ). In Illumina reads, an accumulation of errors toward the end mainly affects long reads.
+
+#KEYWORDS:  decreasing signal-to-noise ratio toward the end of a read signal drooping due to premature termination of the sequencing process on templates Ion PGM Illumina reads accumulation of errors toward the end affects long reads
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit114
+#NUM: 33
+
+#WORDS: : Early NGS studies already reported uneven read coverage when Illumina reads were mapped to existing genomes [other cit]. The extent of this variation appears to vary largely from only 2- or 4-fold [other cit] to more than 100-fold [CITATION HERE]. It can also occur in SOLiD, 454 and Ion PGM datasets [other cit].
+
+#KEYWORDS:  NGS studies variation 100-fold
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit239
+#NUM: 34
+
+#WORDS: : This may pose a problem to research laboratories that are not specialized on NGS data analysis. Cloud computing, i.e., the rental of processing time on a computer cluster on demand over a network, is discussed and developing as a possible solution to this problem ( [CITATION HERE] ), though it has to be considered that this is often not free of costs and may pose security issues related to data transfer [other cit]. Targeted sequencing approaches of metagenomic DNA are mostly applied to identify the members of microbial communities or to compare their composition in different samples.
+
+#KEYWORDS:  problem to research laboratories that are not specialized on NGS data analysis Cloud computing rental of processing time on a computer cluster on demand over a network solution
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit99
+#NUM: 35
+
+#WORDS: : The signal-to-noise ratio also decreases when the fluorescent label is not efficiently cleaved from the nucleotides added in the previous cycle [other cit], and due to fluorescent dye decay during the sequencing process over several days [other cit]. Substitution errors in Illumina reads were analyzed in more detail to identify possible error sources ( [CITATION HERE] ). Certain types of substitutions were found to occur more frequently than others and accumulate at specific positions.
+
+#KEYWORDS:  Substitution errors in Illumina reads were analyzed possible error sources Certain types of substitutions were found
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit187
+#NUM: 36
+
+#WORDS: : As a general strategy, accuracy is improved by sequencing with high coverage, usually 20- to 60-fold, depending on the sequencing purpose [other cit]. Also, the combination of sequencing data generated from different sequencing platforms with different error profiles was suggested and has been applied to identify and eliminate sequencing errors [CITATION HERE]. These strategies are effective in de novo genomic sequencing and resequencing projects, but they are of limited use in metagenomic or metatranscriptomic studies that deal with biological variation.
+
+#KEYWORDS:  sequencing data generated from different sequencing platforms different error profiles identify and eliminate sequencing errors strategies are effective in de novo genomic sequencing and resequencing limited use in metagenomic or metatranscriptomic studies that deal with biological variation
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit190
+#NUM: 37
+
+#WORDS: : It has to be kept in mind that low quality bases are to certain extent localized in specific regions of a genome. Discarding such reads can result in a more uneven coverage, introducing potential bias in quantitative studies ( [CITATION HERE] ). An alternative strategy to read clipping and exclusion of low quality reads is error correction.
+
+#KEYWORDS:  low quality bases are localized in specific regions of a genome uneven coverage bias in quantitative studies read clipping and exclusion of low quality reads is error correction
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit44
+#NUM: 38
+
+#WORDS: : __author et al. ( 2007 ) observed that many of the erroneous reads in an amplicon dataset were characterized by the simultaneous presence of ambiguous base calls and explained this with multitemplated beads that carry similar library fragments. In Illumina datasets, an increasing number of errors is observed in a successively decreasing number of reads ( [CITATION HERE] ). The percentage or error free reads was reported to be 57 % for the GAIIx platform and 76 % for the MiSeq platform in two available reports [other cit].
+
+#KEYWORDS:  erroneous reads in an amplicon dataset were characterized by the simultaneous presence of ambiguous base calls and explained this with multitemplated beads that carry similar library fragments Illumina datasets increasing number of errors is observed 
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit71
+#NUM: 39
+
+#WORDS: : Due to an analogous sequencing principle, the Ion PGM sequencer shows a similar error profile, dominated by indel errors in homopolymeric regions and clearly less substitution errors [other cit]. In contrast, substitution errors are the most frequent error type in Illumina sequencing ( [CITATION HERE] ) and for SOLiD sequencers [other cit]. For the Illumina platform, __author identified 79–88 % of all errors as substitution errors.
+
+#KEYWORDS:  Ion PGM sequencer substitution errors most frequent error type Illumina sequencing platform 
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit107
+#NUM: 40
+
+#WORDS: : They are sequence context dependent, for instance after G-rich regions [other cit]. Moreover, many substitution errors occur strand-specific, i.e., either predominantly in reads that cover a genomic region in forward direction or in those of reverse direction ( [CITATION HERE] ). Such errors can be identified during data assembly or read mapping based on their strand-specificity and the fact that they are associated with low quality values for the respective erroneous base [other cit].
+
+#KEYWORDS:  substitution errors occur strand-specific predominantly in reads that cover a genomic region in forward direction reverse 
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit166
+#NUM: 41
+
+#WORDS: : A similarity analysis of the datasets revealed a clustering according to sequencing centers and, to lesser extent, to runs. For Illumina, some studies report variation between runs and from lane to lane, e.g. with regard to sequencing errors ( [CITATION HERE] ), but also in this case it seems not to be a consistent problem [other cit]. __author reported that variation with regard to sequencing errors largely diminished after data quality filtering.
+
+#KEYWORDS:  similarity analysis of the datasets clustering according to sequencing centers and to runs Illumina variation between runs and from lane to lane sequencing errors diminished after data quality filtering
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit62
+#NUM: 42
+
+#WORDS: : The majority of indel errors occurs in homopolymeric regions [other cit]. The longer the homopolymeric region, the higher the probability of an indel error and the lower the quality scores of the bases toward the end of this region ( [CITATION HERE] ). Indel errors are explained by the underlying sequencing principle.
+
+#KEYWORDS:  longer homopolymeric region higher the probability of an indel error lower the quality scores of the bases toward the end region Indel errors sequencing principle
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit286
+#NUM: 43
+
+#WORDS: : Genes and operons with homology to phosphorous uptake systems, regulatory, and solubilization mechanisms were identified. Metagenomic data of phyllosphere associated microbial communities are available from soybean, rice, clover, Arabidopsis thaliana, Tamarix, and tomato ( [CITATION HERE] ). Some of these datasets were analyzed in combination with metaproteomic data obtained from the same sampling material [other cit].
+
+#KEYWORDS:  Genes operons with homology to phosphorous uptake systems regulatory solubilization mechanisms Metagenomic data of phyllosphere associated microbial communities soybean rice clover Arabidopsis thaliana Tamarix tomato
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit299
+#NUM: 44
+
+#WORDS: : In particular biogeographic patterns, the role of the plant taxon for shaping communities and the temporal succession of the microbiota were addressed ( e.g., __author ). Also differences in the colonization of different plant compartments were analyzed ( [CITATION HERE] ). The impact of specific treatments during plant cultivation such as irrigation were also addressed in some studies [other cit].
+
+#KEYWORDS:  biogeographic patterns plant taxon for shaping communities temporal succession of the microbiota differences in the colonization of different plant compartments
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit40
+#NUM: 45
+
+#WORDS: : If the distribution of errors among 454 reads would be completely random, an error rate of 0.5 % would mean that each read of 500 bp has on average 2.5 errors. But sequencing errors occur only in a certain percentage of reads ; most studies report around 70 % error-free reads ( [CITATION HERE] ). __author et al. ( 2007 ) observed that many of the erroneous reads in an amplicon dataset were characterized by the simultaneous presence of ambiguous base calls and explained this with multitemplated beads that carry similar library fragments.
+
+#KEYWORDS:  sequencing errors occur in a certain percentage of reads error-free amplicon dataset characterized by the simultaneous presence of ambiguous base calls multitemplated beads that carry similar library fragments
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit161
+#NUM: 46
+
+#WORDS: : The overall reproducibility between 454 runs and samples from different regions of the picotiter plate is usually high [other cit]. However, variation in error rates, in particular for indel errors, was seen between different 454 sequencing runs ( [CITATION HERE] ). Variation in terms of read composition of a sample may also occur, as observed in a study in which the same 16S rRNA gene PCR products were sequenced at different sequencing centers and in different runs [other cit].
+
+#KEYWORDS: different regions of the picotiter plate variation in error rates indel errors 454 sequencing runs
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit176
+#NUM: 47
+
+#WORDS: : To identify method related variation in such critical studies, the inclusion of a standardized reference sample is highly recommended [other cit]. Sequencing errors of PacBio single reads are reported in the range of 13–20 % ( [CITATION HERE] ) but this high error rate can be reduced to 1 % or less by CCS [other cit]. Sequencing errors on the PacBio system are mostly insertions and deletions [other cit].
+
+#KEYWORDS:  Sequencing errors of PacBio single reads
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit265
+#NUM: 48
+
+#WORDS: : Denoising algorithms such as PyroNoise, its successor AmpliconNoise or the DeNoiser analyze 454 flow grams [other cit]. The latter two algorithms have been reported to be very efficient, but demand much computational power, which has limited their application [CITATION HERE]. The SeqNoise algorithm, implemented in the software package Mothur, is less computationally demanding and therefore more often used.
+
+#KEYWORDS:  Denoising algorithms AmpliconNoise DeNoiser 454 flow very efficient, but demand much computational power limited application
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit267
+#NUM: 49
+
+#WORDS: : The SeqNoise algorithm, implemented in the software package Mothur, is less computationally demanding and therefore more often used. In comparative studies, the AmpliconNoise algorithm performed very well for OTU estimation [CITATION HERE]. Critical analyses of different denoising tools demonstrated that parameters have to be chosen very carefully in order not to introduce bias by read modification during the generation of representative consensus reads.
+
+#KEYWORDS:  AmpliconNoise algorithm performed well OTU estimation denoising tools generation of representative consensus reads
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit274
+#NUM: 50
+
+#WORDS: : Chimeric sequences originate during PCR and have been reported to contribute between 5 and 45 % of a PCR product [other cit]. Available algorithms to eliminate these artifacts are Perseus, which was developed together with AmpliconNoise [CITATION HERE], ChimeraSlayer [other cit], or UCHIME [other cit]. While ChimeraSlayer needs a chimera-free reference database for chimera detection, Perseus is used without reference database.
+
+#KEYWORDS:  algorithms to eliminate artifacts Perseus AmpliconNoise used without reference database
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit73
+#NUM: 51
+
+#WORDS: : Due to an analogous sequencing principle, the Ion PGM sequencer shows a similar error profile, dominated by indel errors in homopolymeric regions and clearly less substitution errors [other cit]. In contrast, substitution errors are the most frequent error type in Illumina sequencing [other cit] and for SOLiD sequencers ( [CITATION HERE] ). For the Illumina platform, __author identified 79–88 % of all errors as substitution errors.
+
+#KEYWORDS:  substitution errors are the most frequent error type SOLiD sequencers
+
+
+#ID: 17925260-7f34-4f2e-8552-1305f3344f2e_cit175
+#NUM: 52
+
+#WORDS: : To identify method related variation in such critical studies, the inclusion of a standardized reference sample is highly recommended [other cit]. Sequencing errors of PacBio single reads are reported in the range of 13–20 % [CITATION HERE] but this high error rate can be reduced to 1 % or less by CCS [other cit]. Sequencing errors on the PacBio system are mostly insertions and deletions [other cit].
+
+#KEYWORDS:  Sequencing errors PacBio single reads 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit125
+#NUM: 53
+
+#WORDS: : Thus, many questions remain open about its recruitment to the early coat and/or the plasma membrane and how it interacts with other early coat proteins. While the temporal behaviors of most endocytic protein “ modules ” ( Figure 1 ) are invariant in wild-type cells [other cit], the early coat is an exception, ranging in lifetime from 30 to 180 sec ( [CITATION HERE] ). This variability may reflect a putative checkpoint that monitors the packaging of cargo at an endocytic site [other cit] and restricts progress until cargo is suitably concentrated or organized.
+
+#KEYWORDS:  early coat plasma membrane proteins lifetime variability
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit295
+#NUM: 54
+
+#WORDS: : How is inhibition of Las17 by Syp1 and Sla1, and possibly Lsb1 and Lsb2, subsequently released to allow actin assembly ? The first clue is the observation that Syp1 disappears from patches just before the onset of actin assembly [CITATION HERE]. The mechanism for promoting Syp1 departure from patches is unknown, but one possibility is direct phosphorylation by Ark1 and Prk1 kinases [other cit].
+
+#KEYWORDS:  inhibition of Las17 by Syp1 Sla1 Lsb1 Lsb2 allow actin assembly disappears from patches 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit646
+#NUM: 55
+
+#WORDS: : For example, automated techniques allowed for systematic combination of nonlethal mutants into every possible pairwise double mutant followed by phenotypic analysis [other cit]. This has expanded to analyzing more subtle phenotypes by combining mutations with strains expressing GFP-tagged proteins and determining effects on protein localization or abundance [CITATION HERE]. The small number of proteins encoded by the yeast genome have also made it a fertile testing ground for identifying new protein complexes through genome-wide purification of TAP-tagged proteins coupled to mass spectrometry or genome-wide yeast two-hybrid screens and other protein–protein interaction strategies.
+
+#KEYWORDS:  automated techniques analyzing more subtle phenotypes combining mutations with strains expressing GFP-tagged proteins determining effects on protein localization or abundance
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit30
+#NUM: 56
+
+#WORDS: : For example, a subset of these nonessential deletion strains was tested for deficiency in Lucifer Yellow accumulation, which identified the endosomal F-Box protein Rcy1, among others [other cit]. Further, the Conibear lab screened several different gene deletion collections for strains with elevated plasma membrane levels of the v-SNARE protein Snc1 [CITATION HERE], an endocytic cargo that must be included in the membranes of secretory/endocytic vesicles for their delivery and fusion to the subsequent compartment [other cit]. This approach uncovered many of the expected genes, validating the general strategy, and identified the SH3-domain protein Ldb17 as an endocytosis protein.
+
+#KEYWORDS:  Conibear lab screened several different gene deletion collections for strains with elevated plasma membrane levels of the v-SNARE protein Snc1 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit99
+#NUM: 57
+
+#WORDS: : In addition, it is important to continue the search for new adaptors. Endocytic proteins in the early coat are the first to arrive at a nascent endocytic site during the initiation phase ( Figure 1, step 2 ), and include clathrin, AP-2, Ede1, Syp1, and Pal1 ( [CITATION HERE] ). There are many questions about the early coat proteins, including what their functions are ( both individually and as a group ), what triggers their initial recruitment to the membrane, and why the majority of endocytic sites occur at/near sites of polarized growth.
+
+#KEYWORDS:  new adaptors Endocytic proteins in the early coat are the first to arrive at a nascent endocytic site during the initiation phase and include clathrin, AP-2, Ede1, Syp1, and Pal1 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit115
+#NUM: 58
+
+#WORDS: : This region of Syp1 also directly binds and inhibits the actin polymerization functions of Las17 ( ( __author ) ; see Mechanisms of Actin Assembly and Turnover ). Although ede1∆ or syp1∆ cells have relatively mild endocytic phenotypes, these defects are consistent with the observed roles in mammalian cells, such as influencing the localization of clathrin and reducing the number and stability of endocytic patches ( [CITATION HERE] ). The early coat protein Pal1 is another member of an Ede1-containing complex [other cit]. Pal1 appears to be specific to fungi and has no characterized domains that hint at its functions, although it does have two copies of the NPFmotif.
+
+#KEYWORDS:  ede1∆ syp1∆ cells endocytic phenotypes defects are consistent with the observed roles in mammalian cells influencing the localization of clathrin and reducing the number and stability of endocytic patches
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit117
+#NUM: 59
+
+#WORDS: : Although ede1∆ or syp1∆ cells have relatively mild endocytic phenotypes, these defects are consistent with the observed roles in mammalian cells, such as influencing the localization of clathrin and reducing the number and stability of endocytic patches [other cit]. The early coat protein Pal1 is another member of an Ede1-containing complex ( [CITATION HERE] ). Pal1 appears to be specific to fungi and has no characterized domains that hint at its functions, although it does have two copies of the NPFmotif. The S. pombe homolog of Pal1 is implicated in regulating cell polarity [other cit], which is interesting since endocytic sites in S. cerevisiae initiate in a polarized manner [other cit].
+
+#KEYWORDS:  early coat protein Pal1 member of an Ede1-containing complex specific to fungi two copies of the NPFmotif
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit162
+#NUM: 60
+
+#WORDS: : Two additional coat proteins are Yap1801 and Yap1802, yeast homologs of the clathrin assembly lymphoid myeloid leukemia protein ( CALM ), a ubiquitously expressed clathrin adaptor [other cit]. There is some disagreement in the literature about the precise temporal recruitment of the Yap180 proteins, as different groups observed them in either the early or middle coat, possibly influenced by the different positions of the GFP tags [CITATION HERE]. Yap1801/2 in yeast and CALM homologs in other organisms have conserved functions in endocytosis and in recycling of the v-SNARE Snc1/VAMP [other cit]. __author ke Sla2, the Yap1801/2 proteins have N-terminal lipid-binding ANTH domains, and like the epsins they have intrinsically disordered C termini ; Yap1801/2 and the epsins also have common binding partners ( clathrin and EH domain scaffolds ) [other cit].
+
+#KEYWORDS:  temporal recruitment of the Yap180 proteins,l early or middle coat influenced by the different positions of the GFP tags
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit121
+#NUM: 61
+
+#WORDS: : As mentioned above, yeast AP-2 has a role in killer toxin internalization. In addition, it was recently shown to be involved in the maintenance of cell-wall integrity by acting as the endocytic cargo adaptor for the cell-wall stress-sensor Mid2 [CITATION HERE]. Beyond these roles, little else about the function and regulation of AP-2 in yeast is known.
+
+#KEYWORDS:  yeast AP-2 killer toxin internalization maintenance of cell-wall integrity by acting as the endocytic cargo adaptor for the cell-wall stress-sensor Mid2
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit437
+#NUM: 62
+
+#WORDS: : Srv2, also called CAP ( cyclase-associated protein ), was discovered in yeast as a suppressor of a hyperactivated ras allele and as a binding partner of membrane-associated adenylate cyclase [other cit]. Srv2/CAP is a bifunctional protein. Its N-terminal half ( N-Srv2 ) hexamerizes into shuriken-like structures that associate with cofilin-decorated F-actin and improve the efficiency of severing ( [CITATION HERE] ) ( Figure 4 and Figure 7 ). Point mutations in N-Srv2 that abolish the enhanced severing activity in vitro also cause striking defects in actin organization in vivo.
+
+#KEYWORDS:  Srv2/CAP bifunctional protein N-terminal half ( N-Srv2 ) hexamerizes into shuriken-like structures that associate with cofilin-decorated F-actin and improve the efficiency of severing
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit442
+#NUM: 63
+
+#WORDS: : C-Srv2 also has a binding site for profilin, which may enable Srv2 and profilin to work together in monomer recycling [other cit]. One recent study showed that the functions of the N and C termini of Srv2 are autonomous, such that the two physically separated halves can function in trans both in vitro and in vivo [CITATION HERE]. However, it was suggested that linkage of the two halves in a single polypeptide may be important for coordinating the two activities in vivo.
+
+#KEYWORDS:  functions of the N and C termini of Srv2 are autonomous two physically separated halves can function in trans both in vitro and in vivo linkage of the two halves in a single polypeptide may be important for coordinating the two activities in vivo
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit536
+#NUM: 64
+
+#WORDS: : Interestingly, the distribution of this reporter in the plasma membrane originally appeared to be rather uniform ; however, more recent TIRFM/2D-deconvolution shows that PtdIns ( 4,5 ) P2 is actually found in subdomains of the plasma membrane [other cit], suggesting that specific mechanisms govern the synthesis, degradation, or sequestration of PtdIns ( 4,5 ) P2 [other cit]. Another intriguing aspect of lipids in promoting endocytosis comes from studies of phospholipid flippases, which facilitate the movement of lipid molecules between the two membrane leaflets [CITATION HER]. Drs2 and related flippases have been indirectly linked to endocytosis ; the Drs2 chaperone Cdc50 is a high-copy suppressor of a temperature-sensitive myo3myo5 double mutant [other cit], and Drs2 depends upon Pan1 for its correct subcellular localization [other cit]. Perhaps most intriguingly, phospholipid flippases may contribute to membrane curvature and budding by promoting bilayer asymmetry [other cit].
+
+#KEYWORDS:  lipids promoting endocytosis studies of phospholipid flippases facilitate the movement of lipid molecules between the two membrane leaflets
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit253
+#NUM: 65
+
+#WORDS: : So, in this regard Las17 is more similar to mammalian SCAR/WAVE proteins, other members of the larger WASP/SCAR/WAVE family [other cit]. WAVE proteins are inhibited in trans by a large multisubunit WAVE-regulatory complex ( WRC ) ( [CITATION HERE] ). Although homologs of WRC genes are not found in yeast, a distinct set of Las17-binding partners appears to mediate trans-inhibition ( see below ).
+
+#KEYWORDS:  WAVE proteins are inhibited in trans multisubunit WAVE-regulatory complex ( WRC )
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit237
+#NUM: 66
+
+#WORDS: : Each of these NPFs localizes to actin patches, binds to actin and to Arp2/3 complex, stimulates Arp2/3 nucleation activity to some degree in vitro, and exhibits genetic interactions with Arp2/3 complex and/or other NPFs. Las17/WASP and myosin I ( with Vrp1 ) are categorized as class I NPFs because they bind actin monomers and have strong NPF effects [other cit]. Pan1 and Abp1 are categorized as class II NPFs because they bind to F-actin and have comparably weak NPF effects ( Figure 6C ). Consistent with this classification, Arp2/3-inactivating mutations in Las17 combined with mutations in either myosin I or Vrp1 are synthetic lethal, demonstrating that class I NPF function is essential [CITATION HERE]. The roles of Pan1 and Abp1 in regulating Arp2/3 complex during endocytosis are less well understood ( see below ).
+
+#KEYWORDS:  Pan1 Abp1 class II NPFs bind to F-actin comparably weak NPF effects Arp2/3-inactivating mutations in Las17 combined with mutations myosin I Vrp1 synthetic lethal eclass I NPF function is essential
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit170
+#NUM: 67
+
+#WORDS: : Sla1 is a critical late coat protein that was among the first clear links discovered between the endocytic and actin machineries [other cit]. Sla1 has numerous binding partners and regulatory interactions and the capacity to both positively and negatively regulate endocytosis. Its domain layout consists of three SH3 domains, two distinct conserved Sla1 homology domains ( SHD1 and SHD2 ), a clathrin-binding motif, and a C-terminal region that is heavily phosphorylated by actin-regulating kinase ( ARK ) family kinases ( see Vesicle Scission and Uncoating ). Sla1 is subject to autoinhibition, as its SHD2 domain binds to and inhibits the clathrin-binding motif [CITATION HERE]. Sla1 forms a complex with two EH domain-containing late coat proteins, Pan1 and End3 [other cit]. Recently, the specific domains in Pan1 and End3 mediating their interaction were identified, and it was shown that this interaction is required for Pan1 phosphoregulation [other cit].
+
+#KEYWORDS:  Sla1 autoinhibition SHD2 domain binds to and inhibits the clathrin-binding motif
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit177
+#NUM: 68
+
+#WORDS: : It is possible that Sla1 monitors patch maturation by “ sensing ” the status or concentration of clathrin. As noted above, Sla1 residence in patches is reduced in chc1∆ cells [other cit], and cells expressing a sla1 mutant that can not bind clathrin are defective for internalization of the Sla1-dependent cargo protein Wsc1 and have significantly longer lived patches [CITATION HERE]. However, further work is needed to fully understand this mechanism.
+
+#KEYWORDS:  Sla1 monitors patch maturation status or concentration of clathrin cells expressing a sla1 mutant that can not bind clathrin defective for internalization of the Sla1-dependent cargo protein Wsc1 longer lived patches
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit355
+#NUM: 69
+
+#WORDS: : These observations provide intriguing new links between actin and protein translational control, adding to the wealth of previous observations connecting actin and translation [other cit]. Crn1 is the yeast homolog of coronin and binds with high affinity to F-actin and homo-oligomerizes via its C-terminal coiled-coil domain to crosslink actin filaments in vitro [CITATION HERE]. The actin-binding surfaces on Crn1 ’ s N-terminal β-propeller domain have been mapped to evolutionarily conserved residues and are required for its shared genetic functions with Cof1 [other cit].
+
+#KEYWORDS:  Crn1 is the yeast homolog of coronin and binds with F-actin and homo-oligomerizes via its C-terminal coiled-coil domain to crosslink actin filaments in vitro 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit418
+#NUM: 70
+
+#WORDS: : Indeed, in support of this model, mutants in cof1 that disrupt its second F-actin binding site were found to be hyperactive for filament severing [other cit]. Crn1, the yeast homolog of coronin, binds with high affinity to ATP-F-actin and much lower affinity to ADP-F-actin [CITATION HERE]. It contains an N-terminal β-propeller domain [other cit], a central unique sequence ( highly distinct across distant species ) and a C-terminal coiled-coil domain, through which most coronins trimerize [other cit] ( Figure 7 ). Crn1 has two separate actin binding sites, one in its β-propeller domain [other cit] and another in its coiled-coil domain [other cit].
+
+#KEYWORDS:  Crn1 yeast homolog of coronin  binds to ATP-F-actin ADP-F-actin
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit426
+#NUM: 71
+
+#WORDS: : It contains an N-terminal β-propeller domain [other cit], a central unique sequence ( highly distinct across distant species ) and a C-terminal coiled-coil domain, through which most coronins trimerize [other cit] ( Figure 7 ). Crn1 has two separate actin binding sites, one in its β-propeller domain [other cit] and another in its coiled-coil domain [other cit]. A crn1∆ mutation alone causes no obvious defects in actin organization or endocytosis ( [CITATION HERE] ), but exhibits synthetic genetic interactions with cof1-22 and act1-159 alleles, suggesting a role in actin turnover [other cit]. Consistent with this view, purified Crn1 promotes severing of ADP–actin filaments by cofilin in vitro [other cit], and in mammalian systems, coronin, cofilin, and Aip1 have been coisolated from cell extracts as a three-component system that promotes the rapid disassembly of ADP-filaments [other cit].
+
+#KEYWORDS:  crn1∆ mutation causes no obvious defects in actin organization or endocytosis
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit427
+#NUM: 72
+
+#WORDS: : It contains an N-terminal β-propeller domain [other cit], a central unique sequence ( highly distinct across distant species ) and a C-terminal coiled-coil domain, through which most coronins trimerize [other cit] ( Figure 7 ). Crn1 has two separate actin binding sites, one in its β-propeller domain [other cit] and another in its coiled-coil domain [other cit]. A crn1∆ mutation alone causes no obvious defects in actin organization or endocytosis [other cit], but exhibits synthetic genetic interactions with cof1-22 and act1-159 alleles, suggesting a role in actin turnover [CITATION HERE]. Consistent with this view, purified Crn1 promotes severing of ADP–actin filaments by cofilin in vitro [other cit], and in mammalian systems, coronin, cofilin, and Aip1 have been coisolated from cell extracts as a three-component system that promotes the rapid disassembly of ADP-filaments [other cit].
+
+#KEYWORDS:  crn1∆ mutation synthetic genetic interactions with cof1-22 and act1-159 alleles actin turnover
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit460
+#NUM: 73
+
+#WORDS: : Finally, it should be noted that profilin binds PtdIns ( 4,5 ) P2 and that this interaction competes with actin binding, raising the possibility that local changes in membrane composition influence profilin ’ s effects on the actin cytoskeleton [other cit]. Twf1 ( or twinfilin ) was identified in yeast both on F-actin affinity columns and in database searches for proteins with homology to Cof1 [CITATION HERE]. Twinfilin is composed of two ADFH domains connected by a short linker sequence and has a short C-terminal tail region ( Figure 7 ).
+
+#KEYWORDS:  Twf1 twinfilin yeast F-actin affinity columns database searches for proteins with homology to Cof1 composed of two ADFH domains connected by a short linker sequence and has a short C-terminal tail region
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit467
+#NUM: 74
+
+#WORDS: : However, Twf1 has no detectable effect on CP activity in vitro, nor does CP have any detectable effects on Twf1 interactions with G-actin, which has left the functional role of the Twf1–CP interaction unclear. Yeast and mammalian twinfilin proteins bind with high affinity to ADP-G-actin and suppress monomer addition to filament ends [CITATION HERE], which led to early models suggesting that twinfilin serves primarily as an actin monomer sequestering protein similar to thymosin-β4 [other cit]. However, other lines of evidence have pointed to twinfilin-promoting actin-filament disassembly or turnover, including : ( i ) twinfilin genetically interacts with cofilin in yeast and flies [other cit] ; ( ii ) genetic perturbation of twinfilin in yeast cells slows actin turnover, and in mammalian cells slows cell motility [other cit] ; ( iii ) twinfilin localizes to sites of dynamic actin turnover in these systems : patches in yeast, and the leading edge or endosomal actin tails in mammalian cells [other cit] ; ( iv ) the C-terminal ADFH domain in twinfilin binds F-actin in addition to G-actin and can interact with the barbed end of the filament [other cit] ; and ( v ) Twf1 associates with the actin turnover-promoting protein Srv2 in vivo [other cit].
+
+#KEYWORDS:  Twf1 no detectable effect on CP activity in vitro CP interactions with G-actin functional role Twf1–CP Yeast and mammalian twinfilin proteins bind with high affinity to ADP-G-actin and suppress monomer addition to filament ends
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit225
+#NUM: 75
+
+#WORDS: : These results suggest that robust nucleation by Arp2/3 complex requires interactions with both an NPF and a mother filament. Studies comparing yeast and mammalian Arp2/3 complex activities have revealed some differences that may be relevant, including partial nucleation activity by yeast Arp2/3 complex in the absence of NPFs, i.e., weak activation by F-actin alone ( [CITATION HERE] ). However, genetic studies show that NPFs are essential for cell viability and endocytosis [other cit] ; thus, nucleation by Arp2/3 without NPFs is not sufficient in vivo.
+
+#KEYWORDS:  nucleation by Arp2/3 complex requires interactions with both an NPF and a mother filament comparing yeast and mammalian Arp2/3 complex activities differences that may be relevant partial nucleation activity by yeast Arp2/3 complex in the absence of NPFs weak activation by F-actin
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit235
+#NUM: 76
+
+#WORDS: : NPFs directly associate with Arp2/3 complex and actin and serve as cofactors in stimulating nucleation. As mentioned above, there are four known NPFs in yeast : ( 1 ) Las17/WASP, ( 2 ) myosin I ( Myo3 or Myo5 ) in a complex with Vrp1/WIP, ( 3 ) Pan1/Intersectin, and ( 4 ) Abp1 ( [CITATION HERE] ) ( Figure 6 ). Each of these NPFs localizes to actin patches, binds to actin and to Arp2/3 complex, stimulates Arp2/3 nucleation activity to some degree in vitro, and exhibits genetic interactions with Arp2/3 complex and/or other NPFs. Las17/WASP and myosin I ( with Vrp1 ) are categorized as class I NPFs because they bind actin monomers and have strong NPF effects [other cit]. Pan1 and Abp1 are categorized as class II NPFs because they bind to F-actin and have comparably weak NPF effects ( Figure 6C ).
+
+#KEYWORDS:  NPFs directly associate with Arp2/3 complex and actin and serve as cofactors in stimulating nucleation four known NPFs in yeast Las17/WASP myosin I Myo3 or Myo5 in a complex with Vrp1/WIP Pan1/Intersectin Abp1 localizes to actin patches binds to actin and to Arp2/3 complex, stimulates Arp2/3 nucleation activity to some degree in vitro, and exhibits genetic interactions with Arp2/3 complex and/or other NPFs
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit278
+#NUM: 77
+
+#WORDS: : Recently, Abp1 was found to be essential for an alternative endocytic pathway in yeast, perhaps related to its synthetic lethality with factors central to the conventional CME pathway [other cit]. While purified Abp1 alone shows no effects on actin-filament dynamics or organization in vitro [CITATION HERE], when bound to its ligand Aim3 it can cap actin-filament barbed ends [other cit]. Through this interaction, and its interactions with the Arp2/3 complex and the other binding partners mentioned above, Abp1 may influence actin-filament assembly and turnover in a number of ways.
+
+#KEYWORDS:  purified Abp1 alone shows no effects on actin-filament dynamics or organization in vitro
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit518
+#NUM: 78
+
+#WORDS: : Recently, it has become clear that ergosterol and its biosynthetic enzymes are clustered in plasma membrane subdomains referred to as membrane compartment of Can1 ( MCCs ). When these membrane domains are disrupted, there are global consequences on the structure and organization of the plasma membrane ; however, it is currently disputed whether this leads to elevated rates of endocytosis of some cargos or has no effect [CITATION HERE]. Ergosterol was first linked to endocytic functions by the __author lab ’ s identification of a mutation in ERG2/END11 in a genetic screen for endocytosis mutants [other cit].
+
+#KEYWORDS:  ergosterol and its biosynthetic enzymes are clustered in plasma membrane subdomains referred to as membrane compartment of Can1 MCCs membrane domains are disrupted structure and organization of the plasma membrane elevated rates of endocytosis of some cargos or has no effect
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit85
+#NUM: 79
+
+#WORDS: : NPF tripeptide motifs are hereafter labeled as NPFmotif, to distinguish them from the NPF acronym used later ( see Mechanisms of Actin Assembly and Turnover ) in reference to actin nucleation promoting factors ( NPFs ). Although most NPFmotifs are bound by EH domains, typically the NPF ( x ) 1,2D sorting motif is not ( [CITATION HERE] ). Instead, the NPF ( x ) 1,2D motif binds the adaptor protein Sla1, via its SH3-like SHD1 ( Sla1 homology domain 1 ) [other cit].
+
+#KEYWORDS:  NPF tripeptide motifs NPFmotif NPF Mechanisms of Actin Assembly and Turnover in reference to actin nucleation promoting factors NPFs EH domains NPF ( x ) 1,2D sorting
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit432
+#NUM: 80
+
+#WORDS: : The mechanisms underlying these effects for either yeast or mammalian coronins are not yet defined and require further investigation. Adding to the potential complexity of coronin ’ s roles in actin turnover are the interactions of its unique sequence and C-terminal coiled-coil domain with Arp2/3 complex [CITATION HERE]. Srv2, also called CAP ( cyclase-associated protein ), was discovered in yeast as a suppressor of a hyperactivated ras allele and as a binding partner of membrane-associated adenylate cyclase [other cit]. Srv2/CAP is a bifunctional protein.
+
+#KEYWORDS:  yeast or mammalian coronins complexity of coronin roles actin turnover C-terminal coiled-coil domain with Arp2/3 complex 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit588
+#NUM: 81
+
+#WORDS: : As with many cellular structures that are below the resolution limit of standard light microscopy, it has been challenging to assign precise locations to proteins at endocytic sites and to determine how their spatial patterns change during the rapid steps of membrane invagination and vesicle scission. The two most fruitful approaches have been quantitative immuno-EM and correlative light and electron microscopy ( CLEM ) [CITATION HERE]. One recent CLEM study concluded that membrane bending begins with actin polymerization [other cit] ; this seems reasonable given that substantial membrane bending requires forces from actin polymerization, especially given the combination of high turgor pressure and a stiff plasma membrane rich in ergosterol [other cit].
+
+#KEYWORDS:  cellular structures that are below the resolution limit of standard light microscopy precise locations to proteins at endocytic sites spatial patterns change during the rapid steps of membrane invagination and vesicle scission. quantitative immuno-EM correlative light electron microscopy CLEM 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit600
+#NUM: 82
+
+#WORDS: : Consistent with this view, Las17–GFP was initially reported to localize to the base of the invagination and not move inward with other patch components [other cit]. However, more recent studies, one using a Las17–GFP fusion with the tag in an alternative position and one using immuno-EM, concluded that Las17 does move in with the membrane invagination ( [CITATION HERE] ). Thus, the field has not yet reached consensus on the locations of NPFs and hence the orientation of F-actin in the cortical patch.
+
+#KEYWORDS:  Las17–GFP fusion immuno-EM Las17 membrane invagination NPFs orientation of F-actin cortical patch
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit368
+#NUM: 83
+
+#WORDS: : The rate of Pi release for muscle actin is 0.0022 sec−1, but has not been measured for yeast actin. Recent results show that each subunit in a filament formed by muscle actin releases Pi independently, without influence from its neighboring subunits [CITATION HERE]. Thus, each filament is thought to be a unique mosaic of subunits in different nucleotide states, with the growing end of the filament enriched in ATP and ADP + Pi-actin, and the older end of the filament enriched in ADP-actin.
+
+#KEYWORDS:  Pi release for muscle actin has not been measured for yeast 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit431
+#NUM: 84
+
+#WORDS: : A crn1∆ mutation alone causes no obvious defects in actin organization or endocytosis [other cit], but exhibits synthetic genetic interactions with cof1-22 and act1-159 alleles, suggesting a role in actin turnover [other cit]. Consistent with this view, purified Crn1 promotes severing of ADP–actin filaments by cofilin in vitro [other cit], and in mammalian systems, coronin, cofilin, and Aip1 have been coisolated from cell extracts as a three-component system that promotes the rapid disassembly of ADP-filaments ( [CITATION HERE] ). The mechanisms underlying these effects for either yeast or mammalian coronins are not yet defined and require further investigation.
+
+#KEYWORDS:  crn1∆ mutation mammalian systems, coronin, cofilin, and Aip1 have been coisolated from cell extracts as a three-component system promotes rapid disassembly of ADP-filaments
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit229
+#NUM: 85
+
+#WORDS: : Studies comparing yeast and mammalian Arp2/3 complex activities have revealed some differences that may be relevant, including partial nucleation activity by yeast Arp2/3 complex in the absence of NPFs, i.e., weak activation by F-actin alone [other cit]. However, genetic studies show that NPFs are essential for cell viability and endocytosis ( [CITATION HERE] ) ; thus, nucleation by Arp2/3 without NPFs is not sufficient in vivo. Still, this low-level NPF-independent nucleation activity of yeast Arp2/3 complex could be important during endocytosis ; e.g., NPFs may control network initiation as well as ongoing polymerization at the membrane, while NPF-independent nucleation may contribute to reinforcing the network away from the membrane.
+
+#KEYWORDS:  yeast and mammalian Arp2/3 complex activities NPFs are essential for cell viability and endocytosis nucleation by Arp2/3 without NPFs is not sufficient in vivo
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit233
+#NUM: 86
+
+#WORDS: : NPFs directly associate with Arp2/3 complex and actin and serve as cofactors in stimulating nucleation. As mentioned above, there are four known NPFs in yeast : ( 1 ) Las17/WASP, ( 2 ) myosin I ( Myo3 or Myo5 ) in a complex with Vrp1/WIP, ( 3 ) Pan1/Intersectin, and ( 4 ) Abp1 ( [CITATION HERE] ) ( Figure 6 ). Each of these NPFs localizes to actin patches, binds to actin and to Arp2/3 complex, stimulates Arp2/3 nucleation activity to some degree in vitro, and exhibits genetic interactions with Arp2/3 complex and/or other NPFs. Las17/WASP and myosin I ( with Vrp1 ) are categorized as class I NPFs because they bind actin monomers and have strong NPF effects [other cit]. Pan1 and Abp1 are categorized as class II NPFs because they bind to F-actin and have comparably weak NPF effects ( Figure 6C ).
+
+#KEYWORDS:  NPFs Arp2/3 complex actin stimulating nucleation yeast :lLas17/WASP myosin I Myo3 or Myo5in Vrp1/WIP Pan1/Intersectin Abp1
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit238
+#NUM: 87
+
+#WORDS: : Each of these NPFs localizes to actin patches, binds to actin and to Arp2/3 complex, stimulates Arp2/3 nucleation activity to some degree in vitro, and exhibits genetic interactions with Arp2/3 complex and/or other NPFs. Las17/WASP and myosin I ( with Vrp1 ) are categorized as class I NPFs because they bind actin monomers and have strong NPF effects [other cit]. Pan1 and Abp1 are categorized as class II NPFs because they bind to F-actin and have comparably weak NPF effects ( Figure 6C ). Consistent with this classification, Arp2/3-inactivating mutations in Las17 combined with mutations in either myosin I or Vrp1 are synthetic lethal, demonstrating that class I NPF function is essential ( [CITATION HERE] ). The roles of Pan1 and Abp1 in regulating Arp2/3 complex during endocytosis are less well understood ( see below ).
+
+#KEYWORDS:  Pan1 Abp1 class II NPFs bind to F-actin weak effects Arp2/3-inactivating mutations in Las17 myosin I or Vrp1 synthetic lethal class I NPF function is essential
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit623
+#NUM: 88
+
+#WORDS: : Similarly, when the metabolic state of the cell changes and cytosolic concentrations of certain compounds are affected ( e.g., amino acids or sugars ), this can again lead to changes in the residence time and trafficking of particular permeases or transporters [other cit]. The general concept of a plasma membrane quality-control system has been proposed, i.e., that there is machinery that detects and removes damaged or misfolded proteins from the plasma membrane, although there is some disagreement on the subject [CITATION HERE]. This suggested plasma membrane quality-control system appears to require the activities of the E3 Ub-ligase Rsp5, much like nutrient-triggered transporter internalization ( Cargo sorting signals and adaptors ), raising the possibility that an intermediate conformation in transporter endocytosis resembles a misfolded protein [other cit].
+
+#KEYWORDS:  plasma membrane quality-control system machinery that detects and removes damaged or misfolded proteins from the plasma membrane
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit615
+#NUM: 89
+
+#WORDS: : Two types of clathrin structures have been observed in mammalian cells. One is the classic clathrin-coated pit, which forms a spherical clathrin cage structure with an enclosed membrane, leading to internalization even when actin polymerization is blocked ( [CITATION HERE] ). The second is referred to as a plaque and is flat and larger than a traditional clathrin pit ; these plaques become associated with F-actin as they are internalized [other cit].
+
+#KEYWORDS:  types of clathrin structures mammalian cells classic clathrin-coated pit spherical cage structure with an enclosed membrane internalization polymerization is blocked 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit388
+#NUM: 90
+
+#WORDS: : Gmf1, the yeast homolog of mammalian GMF ( glia maturation factor ), is an 18-kDa protein with structural similarity to cofilin [other cit]. GMF is one of four proteins in the ADFH domain superfamily conserved from yeast to humans : cofilin, Abp1, twinfilin, and GMF [other cit]. Gmf1 has little if any binding affinity for F-actin, but binds strongly to Arp2/3 complex ( Figure 7 ) and genetically interacts with cofilin suggesting a role in turnover [other cit]. Gmf1 catalyzes debranching of filaments in vitro without severing filaments at nonbranch locations [other cit]. The debranching activity of yeast Gmf1 is conserved in Drosophila and mouse GMFs [other cit] and depends on separate binding interactions with Arp2 and the first actin subunit in the daughter filament, suggesting a modified cofilin-like severing mechanism for debranching [CITATION HERE]. GMF preferably binds to ADP-rather than ATP-Arp2/3 complex [other cit], suggesting that it targets “ aged ” branches. GMF also inhibits Arp2/3-mediated actin nucleation by competing with VCA for binding Arp2/3 [other cit]. The in vivo relevance of this latter activity is unclear, but could help inhibit branched nucleation by Arp2/3 complex in the absence of NPFs or suppress branched nucleation at the older ( ADP-rich ) regions of networks to allow filament crosslinkers to act.
+
+#KEYWORDS:  yeast Gmf1 binding interactions with Arp2 and the first actin subunit in the daughter filament modified cofilin-like severing mechanism for debranching 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit638
+#NUM: 91
+
+#WORDS: : These distribution patterns are under intense study and are likely to be governed by a combination of inputs that include bud site landmarks, regulatory GTPases that read the landmarks, and other factors such as plasma membrane phospholipids, delivery of secretory cargo by fusion of exocytic vesicles, and feedback loops of signaling pathways [other cit]. Interestingly, this may also involve the morphogenetic checkpoint mediated by Swe1 kinase, which arrests mitosis in response to defects in actin organization and bud growth [CITATION HERE]. Recent work in both C. albicans and S. cerevisiae found evidence for Swe1-dependent phenotypes in endocytosis mutants ; combining deletion of SWE1 with a sla1 or sla2 mutation led to an increase in multinucleated cells, indicative of a Swe1-dependent checkpoint acting on ( and regulating ? ) components of the endocytic machinery [other cit].
+
+#KEYWORDS:  morphogenetic checkpoint mediated by Swe1 kinase mitosis in response to defects in actin organization and bud growth 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit71
+#NUM: 92
+
+#WORDS: : Recent work has uncovered an important role for the [ L/P ] PxY motif-containing α-arrestin family in bridging Rsp5 to specific transmembrane cargo destined for covalent Ub modification and internalization. This family consists of 13 known members, many with partially redundant functions ; additionally, many cargo proteins are able to functionally interact with multiple α-arrestins ( [CITATION HERE] ). The precise mechanisms by which cells regulate binding of transmembrane cargo to α-arrestins are unclear, but may be dictated by physiological or environmental conditions [other cit].
+
+#KEYWORDS: [ L/P ] PxY motif-containing α-arrestin family in bridging Rsp5 to specific transmembrane cargo destined for covalent Ub modification and internalization cargo proteins are able to functionally interact with multiple α-arrestins 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit72
+#NUM: 93
+
+#WORDS: : This family consists of 13 known members, many with partially redundant functions ; additionally, many cargo proteins are able to functionally interact with multiple α-arrestins [other cit]. The precise mechanisms by which cells regulate binding of transmembrane cargo to α-arrestins are unclear, but may be dictated by physiological or environmental conditions [CITATION HERE]. Another recent finding involves the action of the N-terminal “ LID ” domain found in permeases, a transmembrane cargo family ; this LID domain undergoes a conformational change when the permease is nonfunctional or misfolded, triggering an Rsp5-dependent ( but α-arrestin independent ) Ub modification [other cit].
+
+#KEYWORDS:  cells regulate binding of transmembrane cargo to α-arrestins physiological or environmental conditions
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit50
+#NUM: 94
+
+#WORDS: : Through this approach, they made the landmark discovery that cortical patches form in discrete stages following a stereotypical, temporally ordered program in which endocytic components ( including the clathrin heavy and light chains ) are subsequently joined by actin and actin-associated proteins ( Figure 1 ). Further, mutating the endocytic protein Sla2/End4 led to aberrantly long actin “ comet tails ” at endocytic sites, which allowed the measurement of both the rate of actin turnover [other cit] and the relative positions of key actin regulatory proteins within the actin networks, i.e., at the front, at the rear, or evenly distributed [CITATION HERE]. Next, the __author lab found that sla2∆ mutants and/or treatment with the actin depolymerizing drug Latrunculin-A stabilized clathrin at the plasma membrane.
+
+#KEYWORDS:  cortical patches endocytic components clathrin heavy and light chains actin and actin-associated proteins relative positions of key actin regulatory proteins within the actin networks front rear evenly distributed
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit362
+#NUM: 95
+
+#WORDS: : Because of its abundance in the cytosol, it has been difficult to determine whether a subpopulation of Tef1 localizes to cables and/or patches, and there have been no investigations into the potential role of Tef1 in endocytosis. About 3–7 sec after actin assembly is initiated at the cortical patches, components of the disassembly and turnover machinery begin arriving [CITATION HERE]. During the next 10–15 sec of the actin patch lifetime, there is continued actin assembly, likely concurrent with disassembly, which predicts a highly dynamic actin network.
+
+#KEYWORDS:  actin assembly is initiated cortical patches disassembly and turnover machinery
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit379
+#NUM: 96
+
+#WORDS: : However, it remains to be seen how the severing mechanism is affected when cofilin functions in concert with other actin disassembly factors ( below ). The COF1 gene is essential [other cit], but partial loss-of-function cof1 alleles generated by scanning mutagenesis [other cit] show defects in patch dynamics just before scission, pointing to an important role for cofilin-mediated actin turnover and remodeling in driving invagination ( [CITATION HERE] 2010 ; [other cit] ). Additional defects are observed at later stages of endocytosis, including a delayed uncoating of actin from internalized vesicles.
+
+#KEYWORDS:  defects in patch dynamics just before scission important role for cofilin-mediated actin turnover and remodeling in driving invagination 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit204
+#NUM: 97
+
+#WORDS: : Yeast actin structures ( patches, cables, and rings ) each have a distinct shape, function, architecture, and molecular composition [other cit]. How these differences are programmed is not yet understood, but may stem in part from which nucleator is used to initiate the actin network [CITATION HERE]. Further, the relative amount of actin distributed between different types of actin networks ( e.g., patches and cables ) is controlled by homeostatic mechanisms, in which the nucleators in these different structures compete for a limiting pool of G-actin in the cytosol [other cit].
+
+#KEYWORDS:  Yeast actin nucleator is used to initiate the actin network
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit398
+#NUM: 98
+
+#WORDS: : A deletion of AIP1 causes only mild phenotypes, but is synthetic lethal with specific cof1 alleles. Purified Aip1 alone has no effect on actin-filament dynamics, but in combination with cofilin promotes the net disassembly of F-actin into monomers and short oligomers ( [CITATION HERE] ). The mechanism underlying these effects is thought to involve enhanced severing and blocking barbed end growth at severed ends [other cit]. Aip1 consists of two β-propellers in one polypeptide chain and its structure has an open clamshell appearance [other cit] ( Figure 7 ).
+
+#KEYWORDS:  deletion of AIP1 mild phenotypes synthetic lethal with specific cof1 alleles Purified Aip1 actin-filament dynamics,l combination with cofilin promotes the net disassembly of F-actin into monomers and short oligomers 
+
+
+#ID: eac79f1d-4ffd-42df-b39d-5f9f2ea1bfeb_cit478
+#NUM: 99
+
+#WORDS: : Yeast and mammalian twinfilin proteins bind with high affinity to ADP-G-actin and suppress monomer addition to filament ends [other cit], which led to early models suggesting that twinfilin serves primarily as an actin monomer sequestering protein similar to thymosin-β4 [other cit]. However, other lines of evidence have pointed to twinfilin-promoting actin-filament disassembly or turnover, including : ( i ) twinfilin genetically interacts with cofilin in yeast and flies [other cit] ; ( ii ) genetic perturbation of twinfilin in yeast cells slows actin turnover, and in mammalian cells slows cell motility [other cit] ; ( iii ) twinfilin localizes to sites of dynamic actin turnover in these systems : patches in yeast, and the leading edge or endosomal actin tails in mammalian cells [other cit] ; ( iv ) the C-terminal ADFH domain in twinfilin binds F-actin in addition to G-actin and can interact with the barbed end of the filament [CITATION HERE] ; and ( v ) Twf1 associates with the actin turnover-promoting protein Srv2 in vivo [other cit]. Thus, we have included twinfilin here, with the other actin turnover machinery ; however, the specific role and mechanism of twinfilin in promoting turnover remains a mystery.
+
+#KEYWORDS:  Yeast and mammalian C-terminal ADFH domain twinfilin binds F-actin in addition to G-actin and can interact with the barbed end of the filament 
+
+
+
+
+
+

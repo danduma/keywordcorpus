@@ -1,0 +1,800 @@
+#ID: b884c939-144c-4d95-9d30-097f8b83e1d3_cit28
+#NUM: 0
+
+#WORDS: : Training with a target language model One of the main strength of the phrase-based `` log-linear `` models is their ability to make use of powerful target side language models trained on very large amounts of monolingual texts. This ability is crucial to achieve good performance and has to be preserved no matter the difficulties that occur when one moves away from conventional phrase-based systems ( [CITATION HERE] ). It thus seems appropriate to include a LM feature function in our model or alternatively to define :
+
+#KEYWORDS: Training with a target language model phrase based log linear conventional phrase based systems powerful target side language models trained on very large amounts of monolingual texts LM feature function in our model 
+
+
+#ID: b884c939-144c-4d95-9d30-097f8b83e1d3_cit44
+#NUM: 1
+
+#WORDS: : This approximation is however not genuine, and the choice of the most appropriate derivation seems to raises intriguing issues [other cit]. The authors of [CITATION HERE] consider models for which it is computationally possible to marginalize out all possible derivations of a given translation. As demonstrated in these papers, this approach is tractable even when the derivation process is a based on synchronous context-free grammars, rather that finite-state devices.
+
+#KEYWORDS: models for which it is computationally possible to marginalize out all possible derivations of a given translation approach is tractable even when the derivation process 
+
+
+#ID: 748b7e32-8351-4920-a2ee-4e490cdb5d11_cit14
+#NUM: 2
+
+#WORDS: :  __author proposed that syntactic structure could be used as an alternative technique in language modeling. This insight has been explored in the context of speech recognition [CITATION HERE]. __author use supertag n-gram LMs.
+
+#KEYWORDS: syntactic structure could be used as an alternative technique in language modeling context of speech recognition 
+
+
+#ID: 748b7e32-8351-4920-a2ee-4e490cdb5d11_cit12
+#NUM: 3
+
+#WORDS: : [other cit] ), and treelet [other cit] techniques use syntactic information to inform the translation model. Recent work has shown that parsing-based machine translation using syntax-augmented [CITATION HERE] hierarchical translation grammars with rich nonterminal sets can demonstrate substantial gains over hierarchical grammars for certain language pairs [other cit]. In contrast to the above tree-based translation models, our approach maintains a standard ( non-syntactic ) phrase-based translation model.
+
+#KEYWORDS: parsing based machine translation using syntax augmented hierarchical translation grammars 
+
+
+#ID: b5fe1e68-d37f-4900-8022-04fcfd4c33f7_cit23
+#NUM: 4
+
+#WORDS: : As alluded to in Section 2.2, we use a reordering-based loss function to improve word order in a machine translation system. In particular, we use a system of source-side reordering rules which, given a parse of the source sentence, will reorder the sentence into a target-side order [CITATION HERE]. In our experiments we work with a set of English-Japanese reordering rules and gold reorderings based on human generated correct reordering of an aligned target sentences.
+
+#KEYWORDS: system of source side reordering rules which, given a parse of the source sentence, will reorder the sentence into a target side order 
+
+
+#ID: b5fe1e68-d37f-4900-8022-04fcfd4c33f7_cit16
+#NUM: 5
+
+#WORDS: : For the moment we will abstract away from details such as the precise definition of F ( x ) and $ ( y ). We will show in the next section that our augmented-loss method is general and can be applied to any dependency parsing framework that can be trained by the perceptron algorithm, such as transition-based parsers [other cit] and graph-based parsers [CITATION HERE]. The augmented-loss training algorithm that we propose is based on the structured perceptron ; however, the augmented-loss training framework is a general mechanism to incorporate multiple loss functions in online learner training. Algorithm 2 is the pseudocode for the augmented-loss structured perceptron algorithm.
+
+#KEYWORDS: and graph based parsers 
+
+
+#ID: b5fe1e68-d37f-4900-8022-04fcfd4c33f7_cit19
+#NUM: 6
+
+#WORDS: : All feature conjunctions are included. • Graph-based : An implementation of graph-based parsing algorithms with an arc-factored parameterization [CITATION HERE]. We use the non-projective k-best MST algorithm to generate k-best lists [other cit], where k = 8 for the experiments in this paper.
+
+#KEYWORDS: implementation of graph based parsing algorithms with an arc factored parameterization 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit17
+#NUM: 7
+
+#WORDS: : Only resources allowed under NIST ''s constrained data conditions are used to train the language, translation, and lexicalized distortion models. To see whether our local language models result in improvements over a competitive baseline, we designed the baseline to use a large 5-gram word language model and lexicalized distortion modeling, both of which are known to cancel-out improvements gained from POS language models [CITATION HERE]. The 5-gram word language model is trained on the Xinhua and AFP sections of the Gigaword corpus ( 3rd edition, LDC2007T40 ) and the target side of the bitext.
+
+#KEYWORDS: baseline to use a large 5 gram word language model and lexicalized distortion modeling known to cancel out improvements gained from POS language models 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit4
+#NUM: 8
+
+#WORDS: : The vocabulary of POS models, ( typically ranging between 40 and 100 tags ), is much smaller than the vocabulary of a word model, which can easily approach a million words. Nevertheless, most POS language modeling approaches apply some form of smoothing to account for unseen events [CITATION HERE]. To deploy POS language models in machine translation, translation candidates need to be annotated with POS tags.
+
+#KEYWORDS: tags POS language modeling approaches apply some form of smoothing to account for unseen events models 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit19
+#NUM: 9
+
+#WORDS: : In total, 630 million tokens were used to build the word language model. The language model was trained using SRILM with modified Kneser-Ney smoothing and interpolation [CITATION HERE]. It is common practice not to include higher-order n-grams that occur fewer than a predefined number of times.
+
+#KEYWORDS: modified Kneser Ney smoothing and interpolation 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit14
+#NUM: 10
+
+#WORDS: : All local language model probabilities are coupled with the same feature weight. Potentially, improvements could be gained from using separate weights for individual local models, but this would require an optimization procedure such as MIRA [CITATION HERE], which can handle a larger number of features. During decoding no POS tagging ambiguities are resolved.
+
+#KEYWORDS: optimization procedure such as MIRA larger number features 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit12
+#NUM: 11
+
+#WORDS: : This results in separate n-gram count files, which are then processed by SRILM to build the individual language models. __author ''s parser [other cit] is used to POS tag the corpus. Several approaches that integrate POS language models have focused on n-best list re-ranking only [CITATION HERE]. Often this is due to the computational ( and implementational ) complexities of integrating more complex language models with the decoder, although it is expected that a tighter integration with the decoder itself leads to better improvements than n-best list re-ranking.
+
+#KEYWORDS: integrate POS language models n best list re ranking only 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit1
+#NUM: 12
+
+#WORDS: : For unseen n-grams, one would like to model adjectives as being likely to precede nouns in English, for example. A straightforward approach to address this is to exploit the part-of-speech ( POS ) tags of the target words during translation [CITATION HERE]. Though models exploiting POS information are not expressive enough to model long-distance dependencies, they can account for locally ungram-matical constructions such as ( 1.b ).
+
+#KEYWORDS: tags of the target words during translation 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit3
+#NUM: 13
+
+#WORDS: : Word language models can be built directly from large text corpora, such as LDC ''s Gigaword corpus, but POS models require texts that are annotated with POS tags. Ideally, one would use manually annotated corpora such as the Penn Treebank [other cit], but since those tend to be small, most approaches rely on larger corpora which have been automatically annotated by a POS tagger or a parser [CITATION HERE]. Though automated annotation inevitably contains errors, it is assumed that this is ameliorated by the increased size of annotated data.
+
+#KEYWORDS: corpora automatically annotated by a POS tagger or a parser automated annotation 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit6
+#NUM: 14
+
+#WORDS: : After relaxing phrase-matching to include lemma and morphological information on the source side, POS language models lead to a decrease of -0.42 BLEU points. Su-pertagging encapsulates more contextual information than POS tags and __author report improvements when comparing a supertag language model to a baseline using a word language model only. Once the baseline incorporates lexicalized distortion ( [CITATION HERE] ), these improvements disappear. Factored language models have not resulted in significant improvements either.
+
+#KEYWORDS: baseline incorporates lexicalized distortion improvements disappear 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit2
+#NUM: 15
+
+#WORDS: : Word language models can be built directly from large text corpora, such as LDC ''s Gigaword corpus, but POS models require texts that are annotated with POS tags. Ideally, one would use manually annotated corpora such as the Penn Treebank [CITATION HERE], but since those tend to be small, most approaches rely on larger corpora which have been automatically annotated by a POS tagger or a parser [other cit]. Though automated annotation inevitably contains errors, it is assumed that this is ameliorated by the increased size of annotated data.
+
+#KEYWORDS: Penn Treebank 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit21
+#NUM: 16
+
+#WORDS: : NIST did not release a new Chinese-English test set for MT-Eval 2009. Parameter tuning of the decoder was done with minimum error rate training ( MERT ) [CITATION HERE], adapted to BLEU maximization. As evaluation metrics we used NIST ''s adaptation of BLEU-4 [other cit], version 13a, where the brevity penalty is based on the reference translation with the closest length, and translation error rate ( TER ) version 0.7.25 [other cit].
+
+#KEYWORDS: minimum error rate training MERT 
+
+
+#ID: 1b8ced29-1271-4711-ab76-900e1bcf8732_cit22
+#NUM: 17
+
+#WORDS: : Parameter tuning of the decoder was done with minimum error rate training ( MERT ) [other cit], adapted to BLEU maximization. As evaluation metrics we used NIST ''s adaptation of BLEU-4 [CITATION HERE], version 13a, where the brevity penalty is based on the reference translation with the closest length, and translation error rate ( TER ) version 0.7.25 [other cit]. All results reported here are case-insensitive.
+
+#KEYWORDS: NIST ''s adaptation of BLEU 4 
+
+
+#ID: 06d161b0-c1b2-471a-80e4-7995137b40eb_cit29
+#NUM: 18
+
+#WORDS: : This difference is particularly important when operating on the Web corpus due to its size and heterogeneity. Finally, SRL requires hand-constructed semantic resources like Propbank and Framenet ( [CITATION HERE] ) as input. In contrast, Open IE systems require no relation-specific training data.
+
+#KEYWORDS: SRL requires hand constructed semantic resources like Propbank and Framenet 
+
+
+#ID: 06d161b0-c1b2-471a-80e4-7995137b40eb_cit3
+#NUM: 19
+
+#WORDS: : This approach to IE does not scale to corpora where the number of target relations is very large, or where the target relations can not be specified in advance. Open IE solves this problem by identifying relation phrases —phrases that denote relations in English sentences [CITATION HERE]. The automatic identification of relation phrases enables the extraction of arbitrary relations from sentences, obviating the restriction to a pre-specified vocabulary.
+
+#KEYWORDS: Open IE solves this problem by identifying relation phrases —phrases that denote relations in English sentences 
+
+
+#ID: 06d161b0-c1b2-471a-80e4-7995137b40eb_cit4
+#NUM: 20
+
+#WORDS: : Open IE systems have achieved a notable measure of success on massive, open-domain corpora drawn from the Web, Wikipedia, and elsewhere. [CITATION HERE]. The output of Open IE systems has been used to support tasks like learning selectional preferences [other cit], acquiring common sense knowledge [other cit], and recognizing entailment [other cit].
+
+#KEYWORDS: Open IE systems have achieved a notable measure of success on massive, open domain corpora drawn from the Web, Wikipedia, and elsewhere 
+
+
+#ID: 06d161b0-c1b2-471a-80e4-7995137b40eb_cit18
+#NUM: 21
+
+#WORDS: : The first Open IE system was TextRunner [other cit], which used a Naive Bayes model with unlexicalized POS and NP-chunk features, trained using examples heuristically generated from the Penn Treebank. Subsequent work showed that utilizing a linear-chain CRF [CITATION HERE] or Markov Logic Network [other cit] can lead to improved extraction. The woe systems introduced by __author make use of Wikipedia as a source of training data for their extractors, which leads to further improvements over TextRunner [other cit].
+
+#KEYWORDS: utilizing a linear chain CRF improved extraction 
+
+
+#ID: 06d161b0-c1b2-471a-80e4-7995137b40eb_cit25
+#NUM: 22
+
+#WORDS: : Our work differs from these approaches by focusing on relation phrase patterns expressed in terms of POS tags and NP chunks, instead of full parse trees. __author [CITATION HERE] showed that a small set of POS-tag patterns cover a large fraction of relationships in English, but never incorporated the patterns into an extractor. This paper reports on a substantially improved model of binary relation phrases, which increases the recall of the __author -__author model ( see Section 3.3 ).
+
+#KEYWORDS: relation phrase patterns expressed in terms of POS tags and NP chunks small set of POS tag patterns cover a large fraction of relationships in English 
+
+
+#ID: 7e23a87d-9dd4-489a-b400-1d16abc2c7fb_cit24
+#NUM: 23
+
+#WORDS: : We make use of the standard application, composition and coordination combinators, as well as type-shifting rules introduced by __author to model spontaneous, unedited text. A weighted linear CCG [CITATION HERE] provides a ranking on the space of possible parses under the grammar, which can be used to select the best logical form for a sentence. This type of model is closely related to several other approaches ( __author 2004 ). Let x be a sentence, y be a CCG parse, and GEN ( x ; A ) be the set of all possible CCG parses for x given the lexicon A.
+
+#KEYWORDS: weighted linear CCG 
+
+
+#ID: 7e23a87d-9dd4-489a-b400-1d16abc2c7fb_cit13
+#NUM: 24
+
+#WORDS: : There has been significant work on supervised learning for inducing semantic parsers. Various techniques were applied to the problem including machine translation ( [other cit] 2007 ; [other cit] ), higher-order unification [other cit], parsing [other cit], inductive logic programming [other cit], probabilistic push-down automata ( [other cit] 2006 ) and ideas from support vector machines and string kernels [CITATION HERE]. The algorithms we develop in this paper build on previous work on supervised learning of CCG parsers ( __author 2007 ), as we describe in Section 5.3.
+
+#KEYWORDS: string kernels 
+
+
+#ID: a4a2bffa-f0fe-40c3-bfca-2b1c882b6969_cit38
+#NUM: 25
+
+#WORDS: : We highlight three potential avenues for future research. First, this methodology should be applied to additional WSI models, such as graph-based ( [CITATION HERE] ) and probabilistic models [other cit]. Second, we plan to extend the analysis to different sense distributions, varying number of senses, and for human annotated sense similarity data.
+
+#KEYWORDS: methodology should be applied to additional WSI models, such as graph based models 
+
+
+#ID: a4a2bffa-f0fe-40c3-bfca-2b1c882b6969_cit26
+#NUM: 26
+
+#WORDS: : K-Means with the gap statistic converges to the most frequent sense baseline for nearly every con-founder pair. We note that this behavior signiicantly differs from that seen in [CITATION HERE], which clustered second-order co-occurrence vectors rather than the irst-order features that we use. Our analysis showed that the H2 criterion was responsible for this behavior.
+
+#KEYWORDS: clustered second order co occurrence vectors 
+
+
+#ID: c9e2a3c4-8bd4-48a1-887f-b715102af2ca_cit19
+#NUM: 27
+
+#WORDS: : It refers to the automated extraction of relational facts, or world knowledge from the Web [other cit]. To identify semantic relations using machine learning, three learning settings have mainly been applied, namely supervised methods ( [CITATION HERE] ), semi supervised methods [other cit], and unsupervised methods [other cit]. Early work on Relation Extraction has mostly employed kernel-based approaches [other cit].
+
+#KEYWORDS: identify semantic relations using machine learning supervised methods Relation Extraction 
+
+
+#ID: c9e2a3c4-8bd4-48a1-887f-b715102af2ca_cit6
+#NUM: 28
+
+#WORDS: : The main idea behind DS is to exploit ( i ) relation repositories, e.g., the Infobox, x, of Wikipedia to define a set of relation types RT ( x ) and ( ii ) the text of the page associated with x to produce the training sentences, which are supposed to express instances of RT ( x ). Previous work has applied DS to RE at corpus level, e.g., ( [CITATION HERE] ) : relation extractors are ( i ) learned using such not completely accurate data and ( ii ) applied to extract relation instances from the whole corpus. The multiple pieces of evidence for each relation instance are then exploited to recover from errors of the automatic extractors.
+
+#KEYWORDS: relation repositories, e g , the Infobox, x, of Wikipedia to define a set of relation types RT DS to RE at corpus level corpus level relation extractors learned using such not completely accurate data and ii applied to extract relation instances from the whole corpus The multiple pieces of evidence for each relation instance are then exploited to recover from errors of the automatic extractors 
+
+
+#ID: c9e2a3c4-8bd4-48a1-887f-b715102af2ca_cit34
+#NUM: 29
+
+#WORDS: : However, such model was applied to very few relation types. Distant supervised learning [CITATION HERE] addresses this problem by using large amount of data to build classifiers. The DS algorithm creates training data by selecting sentences that probably contain the target relation type.
+
+#KEYWORDS: Distant supervised learning using large amount of data to build classifiers 
+
+
+#ID: c9e2a3c4-8bd4-48a1-887f-b715102af2ca_cit47
+#NUM: 30
+
+#WORDS: : We employed one vs. rest, selecting the instance with largest margin as the final label. We used the Tree Kernel toolkit [CITATION HERE] as SVM platform to implement CK1 and CSK ( see Section 4.1 ). The training phase with convolution kernels on syntactic parse tree and diverse sequence kernels on the large DS data took 3 days.
+
+#KEYWORDS: Tree Kernel toolkit 
+
+
+#ID: c9e2a3c4-8bd4-48a1-887f-b715102af2ca_cit1
+#NUM: 31
+
+#WORDS: : The results show ( i ) an improvement on the previous state-of-the-art in ACE, which provides important evidence of the benefit of DS ; and ( ii ) a rather good accuracy on extracting 52 types of relations from Web data, which suggests the applicability of DS for general RE. Automatic Relation Extraction ( RE ) as defined in ACE [other cit] achieves the highest accuracy when supervised approaches are applied, e.g., [CITATION HERE]. Unfortunately, they require labeled data and tend to be domain-dependent as different domains involve different relations.
+
+#KEYWORDS: Automatic Relation Extraction ACE highest accuracy upervised approaches they require labeled data and tend to be domain dependent as different domains involve different relations 
+
+
+#ID: c9e2a3c4-8bd4-48a1-887f-b715102af2ca_cit32
+#NUM: 32
+
+#WORDS: : Structural kernels on parse trees were proposed in [other cit] for parse reranking and [other cit] extended them for RE using augmented dependency trees. Recent literature has shown that efficient and appropriate kernels can be used to solve the RE problem, exploiting constituency trees [CITATION HERE] and their combination with dependency trees ( __author Traditional relation classifiers use only labeled data for training.
+
+#KEYWORDS: efficient and appropriate kernels can be used to solve the RE problem exploiting constituency trees 
+
+
+#ID: c9e2a3c4-8bd4-48a1-887f-b715102af2ca_cit40
+#NUM: 33
+
+#WORDS: : LOC, denoting the type PERSON and LOCATION, are added to the parse tree, above the two target NEs, respectively. In our experiments, we use the model defined in [CITATION HERE], which combines a syntactic tree kernel applied to constituent parse trees and a polynomial kernel over feature extracted from the entities : where a is a coefficient to give more or less impact to the polynomial kernel, K p, and TK is the syntactic tree kernel [other cit] applied to PET.
+
+#KEYWORDS: combines a syntactic tree kernel applied to constituent parse trees and a polynomial kernel over feature extracted from the entities a coefficient to give more or less impact to the polynomial kernel 
+
+
+#ID: 6d265c7c-4ce0-4467-b063-210e05297198_cit13
+#NUM: 34
+
+#WORDS: : DeNero ''s model combination [other cit] requires a full decoding forest from each system. Joint optimization [other cit] and hybrid decoding [CITATION HERE] require that the input models for each system be available to the combination decoder. __author describes a method for LM-based combination which is most similar to the work presented in this paper, but their method does not discriminatively estimate weights for an arbitrary number of input systems. In fact, they only present results where their main system is adapted using the output of a single other systems.
+
+#KEYWORDS: hybrid decoding 
+
+
+#ID: 60bc070a-340a-4275-8835-a2912d271f0c_cit16
+#NUM: 35
+
+#WORDS: : We use two resources for graph construction. First, we take all the words and phrases present in the dependency-based thesaurus constructed using syntactic cooccurrence statistics [CITATION HERE]. To construct this resource, a corpus containing 64 million words was parsed with a fast dependency parser [other cit], and syntactic contexts were used to find similar lexical items for a given word Poverty Poverty
+
+#KEYWORDS: syntactic cooccurrence statistics 
+
+
+#ID: 60bc070a-340a-4275-8835-a2912d271f0c_cit21
+#NUM: 36
+
+#WORDS: : We also divide the 55 training documents into 5 parts for cross-validation ( see §6.3 ). The raw sentences in all the training and test documents were preprocessed using MXPOST [other cit] and the MST dependency parser [CITATION HERE] following __author et al. ( 2010a ). In this work we assume the frame-evoking targets have been correctly identified in training and test data.
+
+#KEYWORDS: MST dependency parser 
+
+
+#ID: 60bc070a-340a-4275-8835-a2912d271f0c_cit10
+#NUM: 37
+
+#WORDS: : Automatic induction of semantic resources has been a major effort in recent years ( __author inter alia ). In the domain of frame semantics, previous work has sought to extend the coverage of FrameNet by exploiting resources like VerbNet, WordNet, or Wikipedia ( [CITATION HERE] ), and projecting entries and annotations within and across languages [other cit]. Although these approaches have increased coverage to various degrees, they rely on other lexicons and resources created by experts.
+
+#KEYWORDS: extend the coverage of FrameNet by exploiting resources like VerbNet, WordNet, Wikipedia 
+
+
+#ID: 60bc070a-340a-4275-8835-a2912d271f0c_cit20
+#NUM: 38
+
+#WORDS: : We also divide the 55 training documents into 5 parts for cross-validation ( see §6.3 ). The raw sentences in all the training and test documents were preprocessed using MXPOST [CITATION HERE] and the MST dependency parser [other cit] following __author et al. ( 2010a ). In this work we assume the frame-evoking targets have been correctly identified in training and test data.
+
+#KEYWORDS: preprocessed MXPOST 
+
+
+#ID: dff5ae16-7af0-4929-8982-30d1137ee9f1_cit6
+#NUM: 39
+
+#WORDS: : Expected BLEU is normally adopted as the objective since it is differen-tiable and so can be optimised by a form of stochastic gradient ascent. The feature expectations required for the gradient calculation can be obtained from n-best lists or lattices [other cit], or using sampling [CITATION HERE], both of which can be computationally expensive. an online training algorithm that was introduced for parameter learning in weighted logics, and has been applied to complex graphical models [other cit].
+
+#KEYWORDS: feature expectations required for the gradient calculation can be obtained sampling 
+
+
+#ID: dff5ae16-7af0-4929-8982-30d1137ee9f1_cit16
+#NUM: 40
+
+#WORDS: : They also demonstrated that their method could extend to large feature sets, although their experiments were only run on small data sets. An alternative method of calculating the feature expectations for expected bleu training is Monte-Carlo Markov Chain ( MCMC ) approximation, and this was explored in [other cit] and [CITATION HERE]. The sampling methods introduced in this earlier work form the basis of the current work, although in using the sampler for expected bleu training, many samples must be collected before making a parameter weight update, as opposed to the current work where weights may be updated after every sample.
+
+#KEYWORDS: calculating the feature expectations for expected bleu training Monte Carlo Markov Chain MCMC approximation sampling methods sampler 
+
+
+#ID: dff5ae16-7af0-4929-8982-30d1137ee9f1_cit5
+#NUM: 41
+
+#WORDS: : Expected BLEU is normally adopted as the objective since it is differen-tiable and so can be optimised by a form of stochastic gradient ascent. The feature expectations required for the gradient calculation can be obtained from n-best lists or lattices ( [CITATION HERE] ), or using sampling [other cit], both of which can be computationally expensive. an online training algorithm that was introduced for parameter learning in weighted logics, and has been applied to complex graphical models [other cit].
+
+#KEYWORDS: feature expectations required for the gradient calculation can be obtained from n best lists or lattices 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit22
+#NUM: 42
+
+#WORDS: : We also intend to test the combination of PCFG-LA self-training and product grammar parsing described in __author et al. ( 2010 ) on our Web 2. 0 dataset. Combination Parsing Several successful parsing methods have employed multiple parsing models, combined using techniques such as voting, stacking and product models [CITATION HERE]. An ensemble approach to parsing seems particularly appropriate for the linguistic melting pot of Web 2.0, as does the related idea of selecting a model based on characteristics of the input.
+
+#KEYWORDS: Combination Parsing Several successful parsing methods have employed multiple parsing models, combined using techniques such as voting, stacking and product models ensemble 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit8
+#NUM: 43
+
+#WORDS: : We approach the problem from a different perspective, by seeing how far we can get by exploiting unla-belled target domain data. We employ three types of parser retraining, namely, 1 ) the __author self-training protocol, 2 ) uptraining ofMalt using dependency trees produced by a slightly more accurate phrase structure parser [other cit], and 3 ) PCFG-LA self-training [CITATION HERE]. We combine the benefits of the dependency parsing uptraining work of __author and the self-training protocol of __author by retraining Malt on trees produced by a self-trained version of the Brown parser. We find that considerable improvements can be obtained when discussion forum data is used as the source of additional training material, and more modest improvements when Twitter data is used.
+
+#KEYWORDS: phrase structure parser PCFG LA self training 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit21
+#NUM: 44
+
+#WORDS: : The improvements achieved using Twitter-Train are less pronounced, with an absolute improvement of 2.4 % obtained using 600,000 Twit-terTrain trees and two copies of WSJ02-21. __author perform a Stanford-dependency-based parser evaluation, with sentences from QuestionBank [CITATION HERE] as their test data. They find that deterministic dependency parsers such as MaltParser suffer more from the domain differences between Ques-tionBank and WSJ than phrase structure parsers such as the Berkeley parser.
+
+#KEYWORDS: QuestionBank 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit17
+#NUM: 45
+
+#WORDS: : MST [other cit] We use the settings described in __author et al. ( 2010 ). Our training data consists of §02-21 of the WSJ section of the PTB [CITATION HERE]. Although our main aim in this experiment is to establish how well WSJ-trained parsers perform on our new Web 2.0 dataset, we also report performance on §22 as a reference.
+
+#KEYWORDS: PTB 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit20
+#NUM: 46
+
+#WORDS: : The sentences from the target domain, in this case, Brown corpus sentences are then parsed using the newly trained first-stage parser and reranked using the original reranker, resulting in a performance jump from 85.2 % to 87.8 %. One of the factors that make this training protocol effective are the non-generative features in the discriminative reranker [CITATION HERE], and the use of the reranker means that this method is not a pure FootballTrain size ( thousands ) TwitterTrain size ( thousands )
+
+#KEYWORDS: generative features discriminative reranker 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit16
+#NUM: 47
+
+#WORDS: : We train a linear classifier where the feature interactions are modelled explicitly. MST [CITATION HERE] We use the settings described in __author et al. ( 2010 ). Our training data consists of §02-21 of the WSJ section of the PTB [other cit].
+
+#KEYWORDS: MST 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit15
+#NUM: 48
+
+#WORDS: : Brown [other cit] We employ this parser in its out-of-the-box settings. Malt [CITATION HERE] We use the stacklazy algorithm described in __author et al. ( 2009 ). We train a linear classifier where the feature interactions are modelled explicitly.
+
+#KEYWORDS: Malt 
+
+
+#ID: 9c76d9b5-ed16-4a91-aab3-d6631405b0de_cit3
+#NUM: 49
+
+#WORDS: : We extend this work by looking at a larger dataset consisting not only of discussion forum posts but also microblogs or tweets. We extend the parser evaluation to the Brown reranking parser [other cit], MaltParser [CITATION HERE], and we examine the ability of all four parsers to recover typed Stanford dependencies [other cit]. The relative ranking of the four parsers confirms the results of previous Stanford-dependency-based parser evaluations on other datasets [other cit].
+
+#KEYWORDS: MaltParser 
+
+
+#ID: 52fb66ff-b552-4e2d-b2d6-16328d4bb237_cit21
+#NUM: 50
+
+#WORDS: : An example phrase-structure parse tree is shown in Figure 11. Similar to dependency parsing, dominant approaches to phrase-structure parsing include the transition-based method [other cit], which builds an output parse tree by choosing a series of transition actions such as SHIFT and REDUCE, and the graph-based method [CITATION HERE], which explores the search space of possible parse trees to find the best output according to graph-based scores. For English constituent parsing using the Penn Treebank, the best performing transition-based parser lags behind the current state-of-the-art [other cit].
+
+#KEYWORDS: transition actions such as SHIFT and REDUCE, and the graph based method which explores the search space of possible parse trees to find the best output according to graph based scores 
+
+
+#ID: 52fb66ff-b552-4e2d-b2d6-16328d4bb237_cit28
+#NUM: 51
+
+#WORDS: : For our combined dependency parser, the feature set makes a dynamic-programming decoder infeasibly slow. From this perspective, beam-search is in line with other recent research on the improvement of accuracies by incorporating non-local features via approximation, such as belief propagation for dependency parsing [other cit], integer linear programming for dependency parsing [other cit], and forest reranking for phrase-structure parsing [CITATION HERE]. The only prerequisite of the framework is an incremental process, which consumes the input sentence and builds the output structure using a sequence of actions.
+
+#KEYWORDS: dependency parser improvement of accuracies by incorporating non local features via approximation forest reranking for phrase structure parsing 
+
+
+#ID: 52fb66ff-b552-4e2d-b2d6-16328d4bb237_cit17
+#NUM: 52
+
+#WORDS: : Representative of each method, MSTParser and MaltParser gave comparable accuracies in the CoNLL-X shared task [other cit]. However, they make different types of errors, which can be seen as a reflection of their theoretical differences [CITATION HERE]. By combining graph-based and transition-based information, our dependency parser achieved higher accuracy than both graph-based and transition-based baselines.
+
+#KEYWORDS: STParser and MaltParser theoretical differences graph based and transition based 
+
+
+#ID: 52fb66ff-b552-4e2d-b2d6-16328d4bb237_cit11
+#NUM: 53
+
+#WORDS: : Table 14 shows the templates used to extract graph-based features from partial parses. Templates 1-6 are taken from MSTParser [CITATION HERE], a second-order graph-based parser. They are defined in the context of a word, its parent and its sibling.
+
+#KEYWORDS: MSTParser 
+
+
+#ID: 52fb66ff-b552-4e2d-b2d6-16328d4bb237_cit15
+#NUM: 54
+
+#WORDS: : When combined with the joint segmentation and POS-tagging system, the segmentation F-score, joint segmentation and POS-tagging F-score were 95.00 % and 90.17 %, respectively, and the joint segmentation and parsing F-score for non-root words ( excluding punctuations ) was 75.09 %, where the corresponding accuracy with gold-standard segmented and POS-tagged input was 86.21 %, as shown in Table 18. MSTParser [CITATION HERE] is a graph-based parser with an exhaustive search decoder, and MaltParser [other cit] is a transition-based parser with a greedy search decoder. Representative of each method, MSTParser and MaltParser gave comparable accuracies in the CoNLL-X shared task [other cit].
+
+#KEYWORDS: MSTParser graph based parser exhaustive search decoder 
+
+
+#ID: 52fb66ff-b552-4e2d-b2d6-16328d4bb237_cit26
+#NUM: 55
+
+#WORDS: : For our combined dependency parser, the feature set makes a dynamic-programming decoder infeasibly slow. From this perspective, beam-search is in line with other recent research on the improvement of accuracies by incorporating non-local features via approximation, such as belief propagation for dependency parsing [CITATION HERE], integer linear programming for dependency parsing [other cit], and forest reranking for phrase-structure parsing [other cit]. The only prerequisite of the framework is an incremental process, which consumes the input sentence and builds the output structure using a sequence of actions.
+
+#KEYWORDS: belief propagation for dependency parsing 
+
+
+#ID: e83524f3-17b3-4e5b-baa3-c7daa080f67d_cit30
+#NUM: 56
+
+#WORDS: : To use rules in machine-learning-based NE recognitions, __author proposed a Japanese NE recognition method based on a simple rule generator and decision tree learning. The method generates rules from supervised training data [CITATION HERE]. __author proposed a method to use lists of NEs acquired from unlabeled data for NE recognition [other cit].
+
+#KEYWORDS: machine learning based NE recognitions Japanese NE recognition method based on a simple rule generator and decision tree learning generates rules from supervised training data 
+
+
+#ID: e83524f3-17b3-4e5b-baa3-c7daa080f67d_cit2
+#NUM: 57
+
+#WORDS: : To implement NE recognizers, semi-supervised-based methods have recently been widely applied. These methods use several different types of information obtained from unlabeled data, such as word clusters [other cit], the clusters of multi-word nouns [CITATION HERE], phrase clusters [other cit], hyponymy relations extracted from WikiPedia [other cit], NE-related word information [other cit], and the outputs of classifiers or parsers created from unlabeled data [other cit]. These previous works have shown that features acquired from large sets of unlabeled data can contribute to improved accuracy.
+
+#KEYWORDS: NE recognizers, semi supervised based clusters of multi word nouns 
+
+
+#ID: e83524f3-17b3-4e5b-baa3-c7daa080f67d_cit8
+#NUM: 58
+
+#WORDS: : The application results of rules are used as features for machine-learning based NE recognitions. Compared with previous works using rules identifying NEs acquired from manually labeled data [other cit], or lists of NEs acquired from unlabeled data [CITATION HERE], our method uses new features such as identification results of the beginning of NEs and the end of NEs. In addition, we use word information [other cit].
+
+#KEYWORDS: rules identifying NEs acquired lists of NEs acquired from unlabeled data 
+
+
+#ID: e83524f3-17b3-4e5b-baa3-c7daa080f67d_cit20
+#NUM: 59
+
+#WORDS: : This section describes rules and a method to acquire rules. Previous works such as __author [other cit], __author [CITATION HERE], use rules or lists of NEs for only identifying NEs. In addition to rules identifying NEs, we propose to use rules for identifying the beginning of NEs or the end of NEs to capture context information.
+
+#KEYWORDS: use rules or lists of NEs for only identifying NEs 
+
+
+#ID: e83524f3-17b3-4e5b-baa3-c7daa080f67d_cit31
+#NUM: 60
+
+#WORDS: : The method generates rules from supervised training data [other cit]. __author proposed a method to use lists of NEs acquired from unlabeled data for NE recognition [CITATION HERE]. Starting with a few NE seed examples, the method extends lists of NEs.
+
+#KEYWORDS: method to use lists of NEs acquired from unlabeled data for NE recognition Starting with a few NE seed examples, the method extends lists of NEs 
+
+
+#ID: 2ac045d7-5a5d-43d5-a0a9-13ef5672a1d7_cit10
+#NUM: 61
+
+#WORDS: : At inference time, the latent annotations are ( approximately ) marginalized out, resulting in the ( approximate ) most probable unannotated tree according to the refined grammar. This parsing methodology is very robust, producing state of the art accuracies for English, as well as many other languages including German [other cit], French [CITATION HERE] and Chinese [other cit] among others. The grammar learning process is applied to bi-narized parse trees, with 1st-order vertical and 0th-order horizontal markovization.
+
+#KEYWORDS: inference time, the latent annotations approximate most probable unannotated tree according to the refined grammar parsing methodology is very robust, producing state of the art accuracies languages French 
+
+
+#ID: 2ac045d7-5a5d-43d5-a0a9-13ef5672a1d7_cit8
+#NUM: 62
+
+#WORDS: : Their work triggered investigations in automatic grammar refinement and statesplitting [other cit], which was then perfected by [other cit]. The model of [CITATION HERE] and its publicly available implementation, the Berkeley parser, works by starting with a bare-bones treebank derived grammar and automatically refining it in split-merge-smooth cycles. The learning works by iteratively ( 1 ) splitting each non-terminal category in two, ( 2 ) merging back non-effective splits and ( 3 ) smoothing the split non-terminals toward their shared ancestor.
+
+#KEYWORDS: model Berkeley parser starting with a bare bones treebank derived grammar and automatically refining it in split merge smooth cycles learning works by iteratively 1 splitting each non terminal category in two, 2 merging back non effective splits and 3 smoothing the split non terminals toward their shared ancestor 
+
+
+#ID: dabebd3b-659d-4617-8e66-f572d9e4499f_cit5
+#NUM: 63
+
+#WORDS: : Our aim is rather to clarify the difficulties in parsing imperatives and questions by analyzing the remaining errors after the adaptation. Since domain adaptation is an extensive research area in parsing research [other cit], many ideas have been proposed, including un- or semi-supervised approaches ( [CITATION HERE] ) and supervised approaches [other cit]. The main focus of these works is on adapting parsing models trained with a specific genre of text ( in most cases the Penn Treebank WSJ ) to other genres of text, such as biomedical research papers and broadcast news. The major problem tackled in such tasks is the handling of unknown words and domain-specific manners of expression.
+
+#KEYWORDS: domain adaptation is an extensive research area in parsing research un or semi supervised approaches adapting parsing models trained with a specific genre of text in most cases the Penn Treebank WSJ to other genres of text, such as biomedical research papers and broadcast news handling of unknown words and domain specific manners of expression 
+
+
+#ID: dabebd3b-659d-4617-8e66-f572d9e4499f_cit15
+#NUM: 64
+
+#WORDS: : As described below, we also used Question-Bank in the experiments. The advantage, however, of using the Brown treebank is that it includes annotations of function tags and empty categories, and therefore, we can apply the Penn Treebank-to-HPSG conversion program of Enju [CITATION HERE], which relies on function tags and empty categories. Hence, we show experimental results for Enju only with the Brown data.
+
+#KEYWORDS: Penn Treebank to HPSG conversion program Enju function tags and empty categories 
+
+
+#ID: dabebd3b-659d-4617-8e66-f572d9e4499f_cit14
+#NUM: 65
+
+#WORDS: : To evaluate the output from each of the parsers, we used the labeled attachment accuracy excluding punctuation. The Enju parser [CITATION HERE] is a deep parser based on the HPSG ( Head Driven Phrase Structure Grammar ) formalism. It produces an analysis of a sentence including the syntactic structure ( i.e., parse tree ) and the semantic structure represented as a set of predicate-argument dependencies.
+
+#KEYWORDS: Enju parser is a deep parser based on the HPSG Head Driven Phrase Structure Grammar formalism produces an analysis of a sentence including the syntactic structure i e , parse tree and the semantic structure represented as a set of predicate argument dependencies 
+
+
+#ID: 498b5576-e0d5-4727-8ff6-5aa04b99c314_cit7
+#NUM: 66
+
+#WORDS: : Bilingual dictionaries are the most reused resource from RBMT. They have been added to SMT systems since its early days [CITATION HERE]. One of the simplest strategies, which has already been put into practice with the Apertium bilingual dictionaries [other cit], consists of adding the dictionary entries directly to the parallel corpus.
+
+#KEYWORDS: Bilingual dictionaries are the most reused resource from RBMT They have been added to SMT systems since its early days 
+
+
+#ID: 498b5576-e0d5-4727-8ff6-5aa04b99c314_cit4
+#NUM: 67
+
+#WORDS: : 5 ) translate sentences by maximising the translation probability as defined by the log-linear combination of a number of feature functions, whose weights are chosen to optimise translation quality [other cit]. A core component of every PBSMT system is the phrase table, which contains bilingual phrase pairs extracted from a bilingual corpus after word alignment [CITATION HERE]. The set of translations from which the most probable one is chosen is built by segmenting the source sentence in all possible ways and then combining the translation of the different source segments according to the phrase table. Common feature functions are : source-to-target and target-to-source phrase translation probabilities, source-to-target and target-to-source lexical weightings ( calculated by using a probabilistic bilingual dictionary ), reordering costs, number of words in the output ( word penalty ), number of phrase pairs used ( phrase penalty ), and likelihood of the output as given by a target-language model.
+
+#KEYWORDS: A core component of every PBSMT system is the phrase table, which contains bilingual phrase pairs extracted from a bilingual corpus after word alignment set of translations phrase table source sentence 
+
+
+#ID: 498b5576-e0d5-4727-8ff6-5aa04b99c314_cit21
+#NUM: 68
+
+#WORDS: : SRILM language modeling toolkit [other cit], which was used to train a 5-gram language model using interpolated Kneser-__author discounting [other cit]. Word alignments from the training parallel corpus were computed by means of GIZA++ [CITATION HERE]. The Apertium [other cit] engine and the linguistic resources for Spanish-English and Breton-French were downloaded from the Apertium Subversion repository. The Apertium linguistic data contains 326 228 entries in the bilingual dictionary, 106 first-level rules, 31 second-level rules, and 7 third-level rules for Spanish-English ; and 21 593,169, 79 and 6, respectively, for Breton-French ( see section 2.2 for a description of the different rule levels ).
+
+#KEYWORDS: Word alignments GIZA++ 
+
+
+#ID: 498b5576-e0d5-4727-8ff6-5aa04b99c314_cit3
+#NUM: 69
+
+#WORDS: : PBSMT systems ( __author ch. 5 ) translate sentences by maximising the translation probability as defined by the log-linear combination of a number of feature functions, whose weights are chosen to optimise translation quality [CITATION HERE]. A core component of every PBSMT system is the phrase table, which contains bilingual phrase pairs extracted from a bilingual corpus after word alignment [other cit].
+
+#KEYWORDS: PBSMT feature functions, log linear combination of a number of feature functions whose weights are chosen to optimise translation quality PBSMT system is the phrase table 
+
+
+#ID: 498b5576-e0d5-4727-8ff6-5aa04b99c314_cit23
+#NUM: 70
+
+#WORDS: : • a reduced version of our approach in which the entries in the bilingual dictionary are only added to the training corpus for the computation of the word alignments and the probabilistic bilingual dictionary, as explained in section 4.1 ( alignment ). Table 3 reports the translation performance as measured by BLEU [CITATION HERE] for the different configurations and language pairs described in section 5. Statistical significance of the differences between systems has been computed by performing 1 000 iterations of paired bootstrap resampling [other cit] with a p-level of 0.05.
+
+#KEYWORDS: BLEU 
+
+
+#ID: e8b37e6b-f2c4-4663-be46-934c0405be3a_cit22
+#NUM: 71
+
+#WORDS: : __author As mentioned above, __author used global transitivity information to learn small entail-ment graphs. Transitivity was also used as an information source in other fields of NLP : Taxonomy Induction [other cit], Co-reference Resolution [CITATION HERE], Temporal Information Extraction [other cit], and Un-supervised Ontology Induction [other cit]. Our proposed algorithm applies to any sparse transitive relation, and so might be applicable in these fields as well.
+
+#KEYWORDS: global transitivity information Transitivity was also used as an information source Co reference Resolution algorithm 
+
+
+#ID: 9015c7cf-add5-437b-bb9e-114e42999d42_cit11
+#NUM: 72
+
+#WORDS: : Keeping the parse forest intact is crucial when constructing an « -best list over the most probable HPSG analyses that is licensed by the grammar, as the individual parse tree will contain diverging feature structures. This has been addressed in several research papers, as this could potentially be a major bottleneck for non-deterministic HPSG parsing ( [CITATION HERE] ). PET HPSG Parser The PET platform was developed as a tool for experimentation with HPSG processing and implementation techniques [other cit].
+
+#KEYWORDS: HPSG analyses grammar,individual parse tree will contain diverging feature structures This has been addressed in several research papers, as this could potentially be a major bottleneck for non deterministic HPSG parsing 
+
+
+#ID: 2e662720-f4bd-40e2-8d70-658b25bc0bb2_cit30
+#NUM: 73
+
+#WORDS: : Instead of training a parser based on the obtained LFG resources, __author used an external PCFG parser to create c-structure trees, and then mapped the c-structure trees into f-structures using their annotation rules [other cit]. Besides of __author ''s work, some researchers worked on joint dependency parsing and semantic role labeling to fulfill Chinese deep parsing [other cit] ; other researchers focused on performing semantic role labeling after syntactic parsing ( [CITATION HERE] ). There were also some previous works that focused on building the language resources with lexicalized grammars, but not parsing with these resources.
+
+#KEYWORDS: external PCFG parser performing semantic role labeling after syntactic parsing 
+
+
+#ID: 2e662720-f4bd-40e2-8d70-658b25bc0bb2_cit9
+#NUM: 74
+
+#WORDS: : However, obtaining the deep analysis of Chinese has proven to be more difficult. We evaluated an existing HPSG parser, which has been used successfully for English deep parsing [CITATION HERE], on the Chinese HPSG Treebank constructed by __author. The results indicated that compared to English, this parser obtained a 12.97 % decrease in semantic F1-score on Chinese deep parsing.
+
+#KEYWORDS: existing HPSG parser, which has been used successfully for English deep parsing 
+
+
+#ID: fea62c85-ce79-463e-97d7-112eb6fb2b34_cit31
+#NUM: 75
+
+#WORDS: : Other earlier approaches such as the work of __author made use of rule-based approaches without automatic lexical acquisition. We thus compare our system against two state-of-the-art machine translation systems : a phrase-based translation system, implemented in the Moses toolkit [other cit], and a hierarchical phrase-based translation system, implemented in the Joshua toolkit [CITATION HERE], which is a reimplementation of the original Hiero system [other cit]. The state-of-the-art unsuper-vised Berkeley aligner [other cit] with default setting is used to construct word alignments.
+
+#KEYWORDS: hierarchical phrase based translation system, implemented in the Joshua toolkit reimplementation of Hiero 
+
+
+#ID: fea62c85-ce79-463e-97d7-112eb6fb2b34_cit14
+#NUM: 76
+
+#WORDS: : Once the feature values are computed, our goal is to find the optimal weight vector W* that maximizes a certain evaluation metric when used for decoding, as we will discuss in Section 4.4. Following popular approaches to learning feature weights in the machine translation community [CITATION HERE], we use the minimum error rate training ( MERT ) [other cit] algorithm to learn the feature weights that directly optimize certain automatic evaluation metric. Specifically, the Z-MERT [other cit] implementation of the algorithm is used in this work.
+
+#KEYWORDS: popular approaches to learning feature weights in the machine translation community minimum error rate training algorithm weights that directly optimize certain automatic evaluation metric 
+
+
+#ID: 58347c3e-a8d7-41cd-8e11-f41f9d0d5573_cit11
+#NUM: 77
+
+#WORDS: : mSCRISP uses a metric planner [other cit] to compute the best REs that refer uniquely to the target referent, and thus combines statistical and symbolic reasoning. We obtain the cost model by training a maximum entropy ( maxent ) classifier on a corpus of human-generated instruction giving sessions [CITATION HERE] in which every RE can be automatically annotated with a measure of how easy it was for the hearer to resolve. Although mSCRISP is in principle capable of generating complete instruction discourses, we only evaluate its RE generation component here. It turns out that mSCRISP generates more understandable REs than a purely symbolic baseline, according to our model ''s estimation of understandability.
+
+#KEYWORDS: cost model by training a maximum entropy maxent classifier on a corpus of human generated instruction giving sessions 
+
+
+#ID: 58347c3e-a8d7-41cd-8e11-f41f9d0d5573_cit19
+#NUM: 78
+
+#WORDS: : We now present how to obtain a corpus which allows to determine how fast a hearer understood an RE, and discuss how to train a maxent model that predicts this. We use the GIVE-2 corpus of Giving Instructions in Virtual Environments [CITATION HERE], which consists of instruction giving sessions in 3D virtual worlds. In these sessions a human instruction giver ( IG ) guides a human instruction follower ( IF ) through the world with the goal of completing a treasure hunting task. Although the worlds feature varied types of objects ( e.g.
+
+#KEYWORDS: GIVE 2 corpus of Giving Instructions in Virtual Environments instruction giving sessions in 3D virtual worlds 
+
+
+#ID: 58347c3e-a8d7-41cd-8e11-f41f9d0d5573_cit14
+#NUM: 79
+
+#WORDS: : Our work stands in a recent tradition of approaches that attempt to learn optimal RE generation strategies from corpora. For instance, __author tune the parameters of the graph-based algorithm of __author by learning attribute costs from the TUNA corpus [CITATION HERE]. __author share with us a focus on situated generation in a virtual environment.
+
+#KEYWORDS: TUNA corpus 
+
+
+#ID: 58347c3e-a8d7-41cd-8e11-f41f9d0d5573_cit9
+#NUM: 80
+
+#WORDS: : A second characteristic of most existing RE generation systems is that they are limited to generating single noun phrases in isolation. By contrast, planning-based approaches [other cit] generate REs in the context of an entire sentence or even discourse [other cit], and can therefore exploit and manipulate the linguistic and non-linguistic context in order to produce succinct REs [CITATION HERE]. However, these approaches have not been combined with corpus-based measures of hu-manlikeness or understandability of REs.
+
+#KEYWORDS: exploit and manipulate the linguistic and non linguistic context in order to produce succinct REs 
+
+
+#ID: 38e7d88c-5568-4003-a432-44ab760c54d0_cit1
+#NUM: 81
+
+#WORDS: : While subjectivity classification labels text as either subjective or objective, sentiment or polarity classification further classifies subjective text as either positive, negative or neutral. To date, a large number of text processing applications have used techniques for automatic sentiment and subjectivity analysis, including automatic expressive text-to-speech synthesis [CITATION HERE], tracking sentiment timelines in on-line forums and news [other cit], and mining opinions from product reviews [other cit]. In many natural language processing tasks, subjectivity and sentiment classification has been used as a first phase filtering to generate more viable data.
+
+#KEYWORDS: subjectivity classification labels text as either subjective or objective, sentiment or polarity classification further classifies subjective text as either positive, negative or neutral text processing applications have used techniques for automatic sentiment and subjectivity analysis automatic expressive text to speech synthesis 
+
+
+#ID: 38e7d88c-5568-4003-a432-44ab760c54d0_cit6
+#NUM: 82
+
+#WORDS: : In many natural language processing tasks, subjectivity and sentiment classification has been used as a first phase filtering to generate more viable data. Research that benefited from this additional layering ranges from question answering [other cit], to conversation summarization [CITATION HERE], text semantic analysis [other cit] and lexical substitution [other cit]. While research in English has underlined that the most robust subjectivity delineation occurs at sense and not at word level [other cit], we are not aware of this consideration impacting research in other languages.
+
+#KEYWORDS: natural language processing tasks, subjectivity and sentiment classification has been used as a first phase filtering to generate more viable data additional layering conversation summarization 
+
+
+#ID: 38e7d88c-5568-4003-a432-44ab760c54d0_cit19
+#NUM: 83
+
+#WORDS: : Sentiment and subjectivity lexicons such as the one included with the OpinionFinder distribution [other cit], the General Inquirer [other cit], or the SentiWordNet [other cit] were transferred into Chinese [other cit] and into Romanian [other cit]. English corpora manually annotated for subjectivity or sentiment such as MPQA [CITATION HERE], or the multi-domain sentiment classification corpus [other cit] were subjected to experiments in Spanish, Romanian, or Chinese upon automatic translation by [other cit]. Furthermore, tools developed for English were used to determine sentiment or subjectivity labeling for a given target language by transferring the text to English and applying an English classifier on the resulting data. The labels were then transferred back into the target language [other cit].
+
+#KEYWORDS: MPQA corpus 
+
+
+#ID: 093c3e66-69bd-4e08-b344-307dd42ee3bf_cit10
+#NUM: 84
+
+#WORDS: : Constituency and dependency provide attractive views of SRL problem to be exploited in a co-training setup. The major motivation is the promising results of their use in SRL, which satisfies the first assumption. There is a set of rules to convert constituency to dependency [CITATION HERE], which may question the second assumption. However, these rules are oneway, and moreover, __author argues that this assumption can be loosened.
+
+#KEYWORDS: rules to convert constituency to dependency 
+
+
+#ID: 093c3e66-69bd-4e08-b344-307dd42ee3bf_cit24
+#NUM: 85
+
+#WORDS: : These results are given in the next section for comparison. For dependency-based system, the dependency syntax was prepared by converting the above constituent-based parses to dependency parses using the LTH converter [CITATION HERE]. It should be noted that the data were also parsed using MaltParser [other cit] at the same time, but the converter-based system outperformed it.
+
+#KEYWORDS: LTH converter 
+
+
+#ID: 7a3f81f2-0821-4c75-a1da-d2e7662b2503_cit8
+#NUM: 86
+
+#WORDS: : As a preprocessing step, simplification can improve the performance of NLP tasks, including parsing, semantic role labeling, machine translation and summarization [other cit]. Finally, models for text simplification are similar to models for sentence compression ; advances in simplification can benefit compression, which has applications in mobile devices, summarization and captioning ( [CITATION HERE] ). One of the key challenges for text simplification is data availability.
+
+#KEYWORDS: models for text simplification are similar to models for sentence compression ; advances in simplification can benefit compression, which has applications in mobile devices, summarization and captioning 
+
+
+#ID: 7a3f81f2-0821-4c75-a1da-d2e7662b2503_cit20
+#NUM: 87
+
+#WORDS: : No 2-to-2 alignments were found in the data. To better understand how sentences are transformed from normal to simple sentences we learned a word alignment using GIZA++ [CITATION HERE]. Based on this word alignment, we calculated the percentage of sentences that included : re- wordings - a normal word is changed to a different simple word, deletions - a normal word is deleted, reorderings - non-monotonic alignment, splits - a normal words is split into multiple simple words, and merges - multiple normal words are condensed to a single simple word.
+
+#KEYWORDS: GIZA++ 
+
+
+#ID: 3f0da1aa-8fd7-408a-9d49-37b1bb307b64_cit10
+#NUM: 88
+
+#WORDS: : Our work also borrows from the error detection literature. Researchers have explored error detection for manually tagged corpora in the context of pos-tagging [CITATION HERE], dependency parsing [other cit], and text-classification [other cit]. The approaches to error detection include anomaly detection [other cit], finding inconsistent annotations [other cit], and using the weights assigned by learning algorithms such as boosting [other cit] and SVM [other cit] by exploiting the fact that errors tend to concentrate among the examples with large weights.
+
+#KEYWORDS: error detection literature explored error detection for manually tagged corpora in the context of pos tagging 
+
+
+#ID: af65c800-0885-4e46-b6a4-5706b4f8f524_cit3
+#NUM: 89
+
+#WORDS: : However, as shown in the experiments in [other cit], the whole sentiment of a document is not necessarily the sum of its parts. Recent work has shifted the focus from overall document sentiment to sentiment analysis based on product attributes ( [CITATION HERE] ). Document overall sentiment analysis is to summarize the overall sentiment in the document, which relies on two finer levels of sentiment annotation : word-level sentiment annotation and phrase-level sentiment annotation.
+
+#KEYWORDS: entiment of a document is not necessarily the sum of its parts Recent work has shifted the focus from overall document sentiment to sentiment analysis based on product attributes sentiment analysis 
+
+
+#ID: af65c800-0885-4e46-b6a4-5706b4f8f524_cit19
+#NUM: 90
+
+#WORDS: : The system made users be able to clearly see the strengths and weaknesses of each product in the minds of consumers in terms of various product features. In [CITATION HERE], __author not only analyzed polarity of opinions regarding product features but also ranked opinions based on their strength. In [other cit], __author proposed Sentiment-PLSA that analyzed blog entries and viewed them as a document generated by a number of hidden sentiment factors.
+
+#KEYWORDS: consumers in terms of various product features analyzed polarity of opinions regarding product features but also ranked opinions based on their strength 
+
+
+#ID: 68b31a03-efc5-4eba-82c7-813cf3e5c048_cit6
+#NUM: 91
+
+#WORDS: : Instance selection in a transductive learning framework selects the best instances for a given test set ( Lü et al., 2007 ). Active learning selects training samples that will benefit the learning algorithm the most over the unlabeled dataset U from a labeled training set L or from U itself after labeling [CITATION HERE]. Active learning in SMT selects which instances to add to the training set to improve the performance of a baseline system [other cit].
+
+#KEYWORDS: Active learning selects training samples that will benefit the learning algorithm the most over the unlabeled dataset U from a labeled training set L or from U itself after labeling 
+
+
+#ID: 68b31a03-efc5-4eba-82c7-813cf3e5c048_cit9
+#NUM: 92
+
+#WORDS: : Active learning in SMT selects which instances to add to the training set to improve the performance of a baseline system [other cit]. Recent work involves selecting sentence or phrase translation tasks for external human effort [CITATION HERE]. Below we present examples of both with a label indicating whether they follow an approach close to active learning [ AL ] or transductive learning [ TL ] and in our experiments we use the transductive framework.
+
+#KEYWORDS: Active learning in SMT selecting sentence or phrase translation tasks for external human effort 
+
+
+#ID: 68b31a03-efc5-4eba-82c7-813cf3e5c048_cit11
+#NUM: 93
+
+#WORDS: : In their active learning experiments, they selected 1000 training instances in each iteration and retrained the SMT system. Log-probability ratios [ AL ] : __author develop sentence selection scores using feature counts in L and U, increasing for frequent features in U and decreasing for frequent features in L. They use geometric and arithmetic averages of log-probability ratios in an active learning setting where 200 sentences from U are selected and added to L with their translations for 25 iterations [CITATION HERE]. Later, __author distinguish between features found in the phrase table, x reg, and features not found, xoov.
+
+#KEYWORDS: sentence selection scores using feature counts in L and U, increasing for frequent features in U and decreasing for frequent features in L geometric and arithmetic averages of log probability ratios in an active learning setting where 200 sentences from U are selected and added to L with their translations for 25 iterations 
+
+
+#ID: 68b31a03-efc5-4eba-82c7-813cf3e5c048_cit20
+#NUM: 94
+
+#WORDS: : We observe that we can obtain a performance within 2 BLEU difference to the baseline system by training on 3000 instances per sentence ( underlined ) using the mean weights and 1 BLEU difference using the union weights. We also experimented with increasing the N-best list size used during MERT optimization [CITATION HERE], with increased computational cost, and observed some increase in the performance. Table 4 : C j performance for en-de using 100 sentences for tuning or mean of the weights or dev weights obtained with the union setting.
+
+#KEYWORDS: MERT optimization 
+
+
+#ID: 68b31a03-efc5-4eba-82c7-813cf3e5c048_cit4
+#NUM: 95
+
+#WORDS: : Regression has some computational disadvantages when scaling to large number of training instances. Previous work shows that the more the training data, the better the translations become [CITATION HERE]. However, with the increased size of the parallel corpus there is also the added noise, making relevant instance selection important.
+
+#KEYWORDS: Regression has some computational disadvantages when scaling to large number of training instances more training data, the better the translations become 
+
+
+#ID: 4bd16374-7938-4f6f-a311-a302d32788b2_cit1
+#NUM: 96
+
+#WORDS: : There has been a recent surge in addressing parsing for morphologically rich free word order languages such as Czech, Turkish, Hindi, etc. These languages pose various challenges for the task of parsing mainly because the syntactic cues necessary to identify various relations are complex and distributed ( [CITATION HERE] ). There has also been a lot of interest in building ensemble systems [other cit] and parser stacking [other cit] to improve the overall parsing accuracy by combining the strengths of multiple parsers.
+
+#KEYWORDS: challenges for the task of parsing for morphologically rich free word order languages such as Czech, Turkish, Hindi, syntactic cues necessary to identify various relations are complex and distributed 
+
+
+#ID: 4bd16374-7938-4f6f-a311-a302d32788b2_cit19
+#NUM: 97
+
+#WORDS: : The 2ndstage does not modify the parse sub-trees obtained from the 1st stage, it only establishes the relations between the clauses. Since the availability of the Hyderabad Dependency Treebank for Hindi [other cit] a considerable amount of work has gone into exploring various data-driven approaches for Hindi parsing ( [CITATION HERE] ). The ICON09 and ICON10 tools contests on Indian language parsing [other cit] have also showcased various parsing efforts and established the state-of-the-art for Hindi dependency parsing.
+
+#KEYWORDS: exploring various data driven approaches for Hindi parsing 
+
+
+#ID: 4bd16374-7938-4f6f-a311-a302d32788b2_cit23
+#NUM: 98
+
+#WORDS: : Since the availability of the Hyderabad Dependency Treebank for Hindi [other cit] a considerable amount of work has gone into exploring various data-driven approaches for Hindi parsing [other cit]. The ICON09 and ICON10 tools contests on Indian language parsing ( [CITATION HERE] ) have also showcased various parsing efforts and established the state-of-the-art for Hindi dependency parsing. During both these parsing contest MaltParser was used to achieve the best accuracy for Hindi.
+
+#KEYWORDS: ICON09 and ICON10 tools contests on Indian language parsing state of the art for Hindi dependency parsing 
+
+
+#ID: a9d2ff75-400f-4ec6-9893-e59c758133f2_cit3
+#NUM: 99
+
+#WORDS: : speakers [other cit] and more generally individuals with low literacy [other cit]. A simplification component could be also used as a preprocessing step to improve the performance of parsers [CITATION HERE], summarizers [other cit] and semantic role labelers [other cit]. Simplification is related to, but different from paraphrase extraction [other cit].
+
+#KEYWORDS: simplification component could be also used as a preprocessing step to improve the performance of parsers 
+
+
